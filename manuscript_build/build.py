@@ -15,13 +15,13 @@ from refs import REFS
 HERE = Path(__file__).resolve().parent
 FIG = HERE.parent / "exp" / "figures"
 V = values.build()
-INFO = {  # filled once the author supplies them
-    "AUTHOR_BLOCK": "[Author name, affiliation, address, e-mail and ORCID to be supplied]",
-    "AUTHOR_CONTRIB": "Conceptualization, J.J.; methodology, J.J.; software, J.J.; validation, J.J.; formal analysis, J.J.; investigation, J.J.; data curation, J.J.; writing—original draft preparation, J.J.; writing—review and editing, J.J.; visualization, J.J. The author has read and agreed to the published version of the manuscript.",
-    "FUNDING": "[To be completed by the author]",
-    "REPO_URL": "[repository URL]",
-    "ZENODO_DOI": "[Zenodo DOI]",
-    "AI_DISCLOSURE": "During the preparation of this manuscript, the authors used Claude (Anthropic) to assist with language refinement and the preliminary synthesis of selected materials. All AI-assisted content was critically reviewed and revised by the authors. The authors take full responsibility for the accuracy, originality, integrity, and final content of the manuscript.",
+INFO = {
+    "AUTHOR_BLOCK": "Jianzhao Jing (School of Computer Science, Shandong Xiehe University, Jinan 250109, China; Graduate School of Technology, Asia Pacific University of Technology and Innovation, Kuala Lumpur 57000, Malaysia; ORCID 0009-0006-8711-2639), Chia Sien Lim (Graduate School of Technology, Asia Pacific University of Technology and Innovation; ORCID 0000-0002-2257-0608), Muhammad Ehsan Rana (School of Computing, Asia Pacific University of Technology and Innovation; ORCID 0000-0001-5828-4796), Chunhui Wang (ORCID 0009-0000-3257-3485), Xianjuan Shang (ORCID 0009-0007-6434-7993), Mei Liu (ORCID 0009-0003-5530-508X) and Mengxia Wang (ORCID 0009-0009-0171-1270), School of Computer Science, Shandong Xiehe University. Correspondence: wangmengxia@sdxiehe.edu.cn (M.W.); TP079489@mail.apu.edu.my (J.J.)",
+    "AUTHOR_CONTRIB": "Conceptualization, J.J.; methodology, J.J.; software, J.J.; validation, C.W., X.S. and M.L.; formal analysis, J.J.; investigation, J.J.; data curation, J.J.; writing—original draft preparation, J.J.; writing—review and editing, C.S.L., M.E.R., C.W., X.S., M.L. and M.W.; visualization, J.J.; supervision, C.S.L., M.E.R. and M.W.; project administration, M.W. All authors have read and agreed to the published version of the manuscript.",
+    "FUNDING": "This research received no external funding.",
+    "REPO_URL": "https://github.com/jingjianchao54-lab/how-many-fresh-labels-is-a-year-worth",
+    "ZENODO_DOI": "https://doi.org/10.5281/zenodo.23621118",
+    "AI_DISCLOSURE": "During the preparation of this manuscript, the authors used Claude by Anthropic solely to assist with language refinement, readability improvement, and the organization of selected materials. All AI-assisted content was independently verified, critically reviewed, and revised by the authors. The authors take full responsibility for the accuracy, originality, academic integrity, and final content of the manuscript.",
 }
 
 

@@ -12,9 +12,11 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 MS = HERE.parent / "ms"
 INFO = {
-    "authors": "[Author Name] ^1,\\*^",
-    "affil": ["^1^\tFaculty/School, University, City, Postcode, Country; e-mail@e-mail.com",
-              "\\*\tCorrespondence: e-mail@e-mail.com"],
+    "authors": "Jianzhao Jing ^1,2,\\*^, Chia Sien Lim ^2^, Muhammad Ehsan Rana ^3^, Chunhui Wang ^1^, Xianjuan Shang ^1^, Mei Liu ^1^ and Mengxia Wang ^1,\\*^",
+    "affil": ["^1^\tSchool of Computer Science, Shandong Xiehe University, Jinan 250109, China; wangchunhui@sdxiehe.edu.cn (C.W.); shangxianjuan@sdxiehe.edu.cn (X.S.); liumei@sdxiehe.edu.cn (M.L.)",
+              "^2^\tGraduate School of Technology, Asia Pacific University of Technology and Innovation, Technology Park Malaysia, Kuala Lumpur 57000, Malaysia; lim.chiasien@apu.edu.my",
+              "^3^\tSchool of Computing, Asia Pacific University of Technology and Innovation, Technology Park Malaysia, Kuala Lumpur 57000, Malaysia; muhd_ehsanrana@apu.edu.my",
+              "\\*\tCorrespondence: TP079489@mail.apu.edu.my (J.J.); wangmengxia@sdxiehe.edu.cn (M.W.)"],
 }
 
 

@@ -116,7 +116,7 @@ Intervals are 95% percentile bootstrap intervals from 2,000 resamples of test it
 
 ## 3.7. Pre-Specification, Locking and Deviations
 
-The analysis plan was frozen, with its SHA-256 hash recorded, before any per-year count, split size or score was computed. It was not deposited in a public registry; it is released with the code, together with its hash and the time-stamped amendment log. The Reddit corpora had been used in the author's earlier work on user-level prediction, so their overall size and time range were known, and a user-level classifier over whole posting histories had been trained in that work; no post-level classifier and no cross-year score had been computed on them before the plan was fixed. The data gate was applied to counts only. Hyper-parameters were then selected on validation data, and the selected values, the plan hash, the sample index files and the hashes of the evaluation code were written to a lock file before any test set was scored. Test predictions were produced once. Scoring was repeated only to add the MiniLM results, to run the sensitivity analyses, to apply the printing correction D7 and to add M5F and M6, always with the same bootstrap seed. Point estimates for Figure 3, Table A2 and the replicate checks in Section 4.3 were computed later from the stored predictions, without refitting (amendment log X-06, X-11, X-12). The two added models were entered in the amendment log before any of their scores existed and were selected and locked in their own lock files before their test predictions were made. Their scores were written to new result files, and a key-by-key comparison confirmed that the results of M1 were unchanged. Table 3 lists every deviation from the plan.
+The analysis plan was frozen, with its SHA-256 hash recorded, before any per-year count, split size or score was computed. It was not deposited in a public registry; it is released with the code, together with its hash and the time-stamped amendment log. The Reddit corpora had been used in the first author's earlier work on user-level prediction, so their overall size and time range were known, and a user-level classifier over whole posting histories had been trained in that work; no post-level classifier and no cross-year score had been computed on them before the plan was fixed. The data gate was applied to counts only. Hyper-parameters were then selected on validation data, and the selected values, the plan hash, the sample index files and the hashes of the evaluation code were written to a lock file before any test set was scored. Test predictions were produced once. Scoring was repeated only to add the MiniLM results, to run the sensitivity analyses, to apply the printing correction D7 and to add M5F and M6, always with the same bootstrap seed. Point estimates for Figure 3, Table A2 and the replicate checks in Section 4.3 were computed later from the stored predictions, without refitting (amendment log X-06, X-11, X-12). The two added models were entered in the amendment log before any of their scores existed and were selected and locked in their own lock files before their test predictions were made. Their scores were written to new result files, and a key-by-key comparison confirmed that the results of M1 were unchanged. Table 3 lists every deviation from the plan.
 
 «TABLE3»
 
@@ -222,9 +222,9 @@ The cost of old labels can be stated in labels. A break-even size and a label-eq
 
 **Data Availability Statement:** The Reddit corpora are distributed with ConvoKit [@chang2020convokit]. The Stack Exchange data are the public data dump of April 2024 hosted by the Internet Archive and licensed under CC BY-SA. Code, analysis plan, amendment log, lock files, sample indices (item identifiers only, without text), per-run predictions, result files and the scripts that produce every table and figure are available at «REPO_URL» (archived at «ZENODO_DOI»).
 
-**Acknowledgments:** «AI_DISCLOSURE»
+**Declaration on Generative AI:** «AI_DISCLOSURE»
 
-**Conflicts of Interest:** The author declares no conflicts of interest.
+**Conflicts of Interest:** The authors declare no conflicts of interest.
 
 # Appendix A
 

@@ -84,4 +84,8 @@ Code: MIT (see `LICENSE`). Results, figures and documentation: CC BY 4.0. The ra
 
 ## Citation
 
-Please cite the paper once published. Citation details will be added here.
+If you use this code or these results, please cite the archived release:
+
+Jing, J.; Lim, C.S.; Rana, M.E.; Wang, C.; Shang, X.; Liu, M.; Wang, M. *How Many Fresh Labels Is a Year Worth? Code, data indices and results*. Zenodo, 2026. https://doi.org/10.5281/zenodo.23621118
+
+The DOI above always resolves to the latest version. The reference to the accompanying article will be added once it is published.
