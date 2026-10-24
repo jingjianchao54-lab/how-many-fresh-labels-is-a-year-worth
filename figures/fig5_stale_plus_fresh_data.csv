@@ -1,0 +1,11 @@
+dataset,gap_years,fresh_per_class,stale_plus_fresh,fresh_only,stale_only
+reddit,6,25,0.7032,0.34233,0.70295
+reddit,6,50,0.70516,0.43703,0.70295
+reddit,6,100,0.70725,0.52848,0.70295
+reddit,6,200,0.71,0.59382,0.70295
+reddit,6,500,0.71948,0.65468,0.70295
+reddit,6,1000,0.72903,0.69177,0.70295
+stackexchange,6,25,0.74973,0.47609,0.74671
+stackexchange,6,50,0.75522,0.58231,0.74671
+stackexchange,6,100,0.76258,0.66598,0.74671
+stackexchange,6,200,0.77186,0.71726,0.74671
