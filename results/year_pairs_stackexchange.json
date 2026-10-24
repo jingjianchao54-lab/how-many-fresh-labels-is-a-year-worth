@@ -1,0 +1,1231 @@
+{
+ "dataset": "stackexchange",
+ "sizes": [
+  25,
+  50,
+  100,
+  200,
+  500
+ ],
+ "N": 500,
+ "models": {
+  "M1": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00109,
+      "n_star": 489.1,
+      "rho": 0.9782
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00746,
+      "n_star": 437.1,
+      "rho": 0.8742
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": -0.00193,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2018,
+      "test": 2019,
+      "cost": -0.00044,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2019,
+      "test": 2020,
+      "cost": 0.016,
+      "n_star": 388.8,
+      "rho": 0.7776
+     },
+     {
+      "train": 2020,
+      "test": 2021,
+      "cost": 0.01149,
+      "n_star": 403.0,
+      "rho": 0.8059
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 2,
+    "rho_min": 0.7776,
+    "rho_median": 0.84005,
+    "rho_max": 0.9782
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.00579,
+      "n_star": 450.4,
+      "rho": 0.9009
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": -0.00514,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2017,
+      "test": 2019,
+      "cost": 0.00208,
+      "n_star": 479.2,
+      "rho": 0.9584
+     },
+     {
+      "train": 2018,
+      "test": 2020,
+      "cost": 0.01081,
+      "n_star": 421.8,
+      "rho": 0.8436
+     },
+     {
+      "train": 2019,
+      "test": 2021,
+      "cost": 0.01492,
+      "n_star": 377.8,
+      "rho": 0.7556
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 1,
+    "rho_min": 0.7556,
+    "rho_median": 0.87225,
+    "rho_max": 0.9584
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": -0.00638,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2016,
+      "test": 2019,
+      "cost": 0.00327,
+      "n_star": 467.6,
+      "rho": 0.9353
+     },
+     {
+      "train": 2017,
+      "test": 2020,
+      "cost": 0.01115,
+      "n_star": 419.6,
+      "rho": 0.8391
+     },
+     {
+      "train": 2018,
+      "test": 2021,
+      "cost": 0.02408,
+      "n_star": 318.1,
+      "rho": 0.6361
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 1,
+    "rho_min": 0.6361,
+    "rho_median": 0.8391,
+    "rho_max": 0.9353
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2019,
+      "cost": 0.00406,
+      "n_star": 460.2,
+      "rho": 0.9203
+     },
+     {
+      "train": 2016,
+      "test": 2020,
+      "cost": 0.00958,
+      "n_star": 430.1,
+      "rho": 0.8601
+     },
+     {
+      "train": 2017,
+      "test": 2021,
+      "cost": 0.01658,
+      "n_star": 366.2,
+      "rho": 0.7324
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.7324,
+    "rho_median": 0.8601,
+    "rho_max": 0.9203
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2020,
+      "cost": 0.01652,
+      "n_star": 385.6,
+      "rho": 0.7711
+     },
+     {
+      "train": 2016,
+      "test": 2021,
+      "cost": 0.01587,
+      "n_star": 371.1,
+      "rho": 0.7422
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.7422,
+    "rho_median": 0.75665,
+    "rho_max": 0.7711
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2021,
+      "cost": 0.01934,
+      "n_star": 347.7,
+      "rho": 0.6954
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.6954,
+    "rho_median": 0.6954,
+    "rho_max": 0.6954
+   }
+  },
+  "M2": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00345,
+      "n_star": 470.0,
+      "rho": 0.9401
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00614,
+      "n_star": 448.4,
+      "rho": 0.8968
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00068,
+      "n_star": 493.1,
+      "rho": 0.9862
+     },
+     {
+      "train": 2018,
+      "test": 2019,
+      "cost": 0.00173,
+      "n_star": 483.3,
+      "rho": 0.9666
+     },
+     {
+      "train": 2019,
+      "test": 2020,
+      "cost": 0.01569,
+      "n_star": 387.8,
+      "rho": 0.7757
+     },
+     {
+      "train": 2020,
+      "test": 2021,
+      "cost": 0.0156,
+      "n_star": 374.1,
+      "rho": 0.7482
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.7482,
+    "rho_median": 0.91845,
+    "rho_max": 0.9862
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.00616,
+      "n_star": 448.2,
+      "rho": 0.8965
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": -0.00478,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2017,
+      "test": 2019,
+      "cost": 0.00318,
+      "n_star": 469.8,
+      "rho": 0.9396
+     },
+     {
+      "train": 2018,
+      "test": 2020,
+      "cost": 0.00971,
+      "n_star": 427.3,
+      "rho": 0.8546
+     },
+     {
+      "train": 2019,
+      "test": 2021,
+      "cost": 0.01667,
+      "n_star": 366.8,
+      "rho": 0.7335
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 1,
+    "rho_min": 0.7335,
+    "rho_median": 0.87555,
+    "rho_max": 0.9396
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": -0.00665,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2016,
+      "test": 2019,
+      "cost": 0.0025,
+      "n_star": 476.1,
+      "rho": 0.9522
+     },
+     {
+      "train": 2017,
+      "test": 2020,
+      "cost": 0.01085,
+      "n_star": 419.5,
+      "rho": 0.8389
+     },
+     {
+      "train": 2018,
+      "test": 2021,
+      "cost": 0.0215,
+      "n_star": 335.3,
+      "rho": 0.6705
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 1,
+    "rho_min": 0.6705,
+    "rho_median": 0.8389,
+    "rho_max": 0.9522
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2019,
+      "cost": 0.00801,
+      "n_star": 427.3,
+      "rho": 0.8546
+     },
+     {
+      "train": 2016,
+      "test": 2020,
+      "cost": 0.0101,
+      "n_star": 424.6,
+      "rho": 0.8492
+     },
+     {
+      "train": 2017,
+      "test": 2021,
+      "cost": 0.01809,
+      "n_star": 357.2,
+      "rho": 0.7143
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.7143,
+    "rho_median": 0.8492,
+    "rho_max": 0.8546
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2020,
+      "cost": 0.01376,
+      "n_star": 400.2,
+      "rho": 0.8004
+     },
+     {
+      "train": 2016,
+      "test": 2021,
+      "cost": 0.01801,
+      "n_star": 357.7,
+      "rho": 0.7155
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.7155,
+    "rho_median": 0.75795,
+    "rho_max": 0.8004
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2021,
+      "cost": 0.0195,
+      "n_star": 348.0,
+      "rho": 0.6959
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.6959,
+    "rho_median": 0.6959,
+    "rho_max": 0.6959
+   }
+  },
+  "M3": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00363,
+      "n_star": 458.3,
+      "rho": 0.9166
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00534,
+      "n_star": 436.9,
+      "rho": 0.8738
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00478,
+      "n_star": 445.2,
+      "rho": 0.8903
+     },
+     {
+      "train": 2018,
+      "test": 2019,
+      "cost": 0.00906,
+      "n_star": 409.8,
+      "rho": 0.8196
+     },
+     {
+      "train": 2019,
+      "test": 2020,
+      "cost": 0.01586,
+      "n_star": 373.2,
+      "rho": 0.7463
+     },
+     {
+      "train": 2020,
+      "test": 2021,
+      "cost": 0.0157,
+      "n_star": 349.3,
+      "rho": 0.6986
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.6986,
+    "rho_median": 0.8467,
+    "rho_max": 0.9166
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.0073,
+      "n_star": 415.8,
+      "rho": 0.8316
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": -0.00016,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2017,
+      "test": 2019,
+      "cost": 0.00775,
+      "n_star": 421.7,
+      "rho": 0.8435
+     },
+     {
+      "train": 2018,
+      "test": 2020,
+      "cost": 0.01582,
+      "n_star": 373.4,
+      "rho": 0.7468
+     },
+     {
+      "train": 2019,
+      "test": 2021,
+      "cost": 0.01698,
+      "n_star": 339.1,
+      "rho": 0.6783
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 1,
+    "rho_min": 0.6783,
+    "rho_median": 0.7892,
+    "rho_max": 0.8435
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00522,
+      "n_star": 440.4,
+      "rho": 0.8809
+     },
+     {
+      "train": 2016,
+      "test": 2019,
+      "cost": 0.00941,
+      "n_star": 406.7,
+      "rho": 0.8133
+     },
+     {
+      "train": 2017,
+      "test": 2020,
+      "cost": 0.01084,
+      "n_star": 409.3,
+      "rho": 0.8186
+     },
+     {
+      "train": 2018,
+      "test": 2021,
+      "cost": 0.02117,
+      "n_star": 308.2,
+      "rho": 0.6164
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.6164,
+    "rho_median": 0.81595,
+    "rho_max": 0.8809
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2019,
+      "cost": 0.00683,
+      "n_star": 430.4,
+      "rho": 0.8607
+     },
+     {
+      "train": 2016,
+      "test": 2020,
+      "cost": 0.01324,
+      "n_star": 391.6,
+      "rho": 0.7832
+     },
+     {
+      "train": 2017,
+      "test": 2021,
+      "cost": 0.02114,
+      "n_star": 308.4,
+      "rho": 0.6168
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.6168,
+    "rho_median": 0.7832,
+    "rho_max": 0.8607
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2020,
+      "cost": 0.01969,
+      "n_star": 347.6,
+      "rho": 0.6953
+     },
+     {
+      "train": 2016,
+      "test": 2021,
+      "cost": 0.02287,
+      "n_star": 296.4,
+      "rho": 0.5929
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.5929,
+    "rho_median": 0.6441,
+    "rho_max": 0.6953
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2021,
+      "cost": 0.02257,
+      "n_star": 298.5,
+      "rho": 0.5969
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.5969,
+    "rho_median": 0.5969,
+    "rho_max": 0.5969
+   }
+  },
+  "M4": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00142,
+      "n_star": 472.7,
+      "rho": 0.9454
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": -0.00069,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.008,
+      "n_star": 333.7,
+      "rho": 0.6674
+     },
+     {
+      "train": 2018,
+      "test": 2019,
+      "cost": 0.00769,
+      "n_star": 349.3,
+      "rho": 0.6986
+     },
+     {
+      "train": 2019,
+      "test": 2020,
+      "cost": 0.001,
+      "n_star": 479.6,
+      "rho": 0.9592
+     },
+     {
+      "train": 2020,
+      "test": 2021,
+      "cost": -9e-05,
+      "n_star": ">500",
+      "rho": null
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 2,
+    "rho_min": 0.6674,
+    "rho_median": 0.8220000000000001,
+    "rho_max": 0.9592
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": -0.00598,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00685,
+      "n_star": 353.7,
+      "rho": 0.7075
+     },
+     {
+      "train": 2017,
+      "test": 2019,
+      "cost": 0.00439,
+      "n_star": 407.5,
+      "rho": 0.815
+     },
+     {
+      "train": 2018,
+      "test": 2020,
+      "cost": 0.00104,
+      "n_star": 478.6,
+      "rho": 0.9573
+     },
+     {
+      "train": 2019,
+      "test": 2021,
+      "cost": 0.01386,
+      "n_star": 278.5,
+      "rho": 0.557
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 1,
+    "rho_min": 0.557,
+    "rho_median": 0.76125,
+    "rho_max": 0.9573
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00191,
+      "n_star": 453.9,
+      "rho": 0.9078
+     },
+     {
+      "train": 2016,
+      "test": 2019,
+      "cost": 0.00593,
+      "n_star": 379.1,
+      "rho": 0.7582
+     },
+     {
+      "train": 2017,
+      "test": 2020,
+      "cost": 0.00423,
+      "n_star": 418.9,
+      "rho": 0.8378
+     },
+     {
+      "train": 2018,
+      "test": 2021,
+      "cost": 0.00358,
+      "n_star": 430.0,
+      "rho": 0.8599
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.7582,
+    "rho_median": 0.84885,
+    "rho_max": 0.9078
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2019,
+      "cost": 0.005,
+      "n_star": 396.0,
+      "rho": 0.7919
+     },
+     {
+      "train": 2016,
+      "test": 2020,
+      "cost": 0.00527,
+      "n_star": 401.2,
+      "rho": 0.8024
+     },
+     {
+      "train": 2017,
+      "test": 2021,
+      "cost": 0.00752,
+      "n_star": 364.0,
+      "rho": 0.728
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.728,
+    "rho_median": 0.7919,
+    "rho_max": 0.8024
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2020,
+      "cost": 0.00446,
+      "n_star": 415.0,
+      "rho": 0.8299
+     },
+     {
+      "train": 2016,
+      "test": 2021,
+      "cost": 0.00649,
+      "n_star": 380.1,
+      "rho": 0.7602
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.7602,
+    "rho_median": 0.79505,
+    "rho_max": 0.8299
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2021,
+      "cost": 0.00862,
+      "n_star": 347.5,
+      "rho": 0.6951
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.6951,
+    "rho_median": 0.6951,
+    "rho_max": 0.6951
+   }
+  },
+  "M5F": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": -5e-05,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": -0.00156,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00565,
+      "n_star": 264.7,
+      "rho": 0.5294
+     },
+     {
+      "train": 2018,
+      "test": 2019,
+      "cost": 0.00125,
+      "n_star": 383.2,
+      "rho": 0.7665
+     },
+     {
+      "train": 2019,
+      "test": 2020,
+      "cost": 0.00105,
+      "n_star": 449.4,
+      "rho": 0.8988
+     },
+     {
+      "train": 2020,
+      "test": 2021,
+      "cost": 0.00603,
+      "n_star": 290.1,
+      "rho": 0.5802
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 2,
+    "rho_min": 0.5294,
+    "rho_median": 0.67335,
+    "rho_max": 0.8988
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": -0.00071,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00621,
+      "n_star": 248.6,
+      "rho": 0.4971
+     },
+     {
+      "train": 2017,
+      "test": 2019,
+      "cost": -0.00129,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2018,
+      "test": 2020,
+      "cost": 0.00191,
+      "n_star": 411.8,
+      "rho": 0.8236
+     },
+     {
+      "train": 2019,
+      "test": 2021,
+      "cost": 0.0063,
+      "n_star": 283.1,
+      "rho": 0.5663
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 2,
+    "rho_min": 0.4971,
+    "rho_median": 0.5663,
+    "rho_max": 0.8236
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00587,
+      "n_star": 258.3,
+      "rho": 0.5166
+     },
+     {
+      "train": 2016,
+      "test": 2019,
+      "cost": 0.00102,
+      "n_star": 402.7,
+      "rho": 0.8055
+     },
+     {
+      "train": 2017,
+      "test": 2020,
+      "cost": -0.00165,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2018,
+      "test": 2021,
+      "cost": 0.00652,
+      "n_star": 277.3,
+      "rho": 0.5547
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 1,
+    "rho_min": 0.5166,
+    "rho_median": 0.5547,
+    "rho_max": 0.8055
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2019,
+      "cost": 0.00391,
+      "n_star": 217.3,
+      "rho": 0.4346
+     },
+     {
+      "train": 2016,
+      "test": 2020,
+      "cost": 0.00226,
+      "n_star": 397.6,
+      "rho": 0.7953
+     },
+     {
+      "train": 2017,
+      "test": 2021,
+      "cost": 0.00472,
+      "n_star": 326.4,
+      "rho": 0.6529
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.4346,
+    "rho_median": 0.6529,
+    "rho_max": 0.7953
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2020,
+      "cost": 0.0023,
+      "n_star": 396.1,
+      "rho": 0.7921
+     },
+     {
+      "train": 2016,
+      "test": 2021,
+      "cost": 0.00791,
+      "n_star": 244.7,
+      "rho": 0.4894
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.4894,
+    "rho_median": 0.64075,
+    "rho_max": 0.7921
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2021,
+      "cost": 0.00697,
+      "n_star": 266.5,
+      "rho": 0.533
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.533,
+    "rho_median": 0.533,
+    "rho_max": 0.533
+   }
+  },
+  "M6": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00086,
+      "n_star": 466.0,
+      "rho": 0.9321
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00165,
+      "n_star": 461.7,
+      "rho": 0.9234
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00419,
+      "n_star": 375.7,
+      "rho": 0.7514
+     },
+     {
+      "train": 2018,
+      "test": 2019,
+      "cost": 0.00724,
+      "n_star": 336.9,
+      "rho": 0.6739
+     },
+     {
+      "train": 2019,
+      "test": 2020,
+      "cost": 0.00591,
+      "n_star": 343.7,
+      "rho": 0.6874
+     },
+     {
+      "train": 2020,
+      "test": 2021,
+      "cost": 0.00754,
+      "n_star": 358.1,
+      "rho": 0.7162
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.6739,
+    "rho_median": 0.7338,
+    "rho_max": 0.9321
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.00238,
+      "n_star": 445.6,
+      "rho": 0.8912
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": -3e-05,
+      "n_star": ">500",
+      "rho": null
+     },
+     {
+      "train": 2017,
+      "test": 2019,
+      "cost": 0.00372,
+      "n_star": 408.1,
+      "rho": 0.8163
+     },
+     {
+      "train": 2018,
+      "test": 2020,
+      "cost": 0.00307,
+      "n_star": 411.6,
+      "rho": 0.8232
+     },
+     {
+      "train": 2019,
+      "test": 2021,
+      "cost": 0.0081,
+      "n_star": 349.3,
+      "rho": 0.6985
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 1,
+    "rho_min": 0.6985,
+    "rho_median": 0.81975,
+    "rho_max": 0.8912
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00229,
+      "n_star": 427.6,
+      "rho": 0.8553
+     },
+     {
+      "train": 2016,
+      "test": 2019,
+      "cost": 0.01023,
+      "n_star": 286.3,
+      "rho": 0.5727
+     },
+     {
+      "train": 2017,
+      "test": 2020,
+      "cost": 0.00339,
+      "n_star": 403.2,
+      "rho": 0.8064
+     },
+     {
+      "train": 2018,
+      "test": 2021,
+      "cost": 0.00666,
+      "n_star": 372.3,
+      "rho": 0.7446
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.5727,
+    "rho_median": 0.7755000000000001,
+    "rho_max": 0.8553
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2019,
+      "cost": 0.01135,
+      "n_star": 269.4,
+      "rho": 0.5388
+     },
+     {
+      "train": 2016,
+      "test": 2020,
+      "cost": 0.0067,
+      "n_star": 327.0,
+      "rho": 0.6539
+     },
+     {
+      "train": 2017,
+      "test": 2021,
+      "cost": 0.00878,
+      "n_star": 338.8,
+      "rho": 0.6777
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.5388,
+    "rho_median": 0.6539,
+    "rho_max": 0.6777
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2020,
+      "cost": 0.00492,
+      "n_star": 366.1,
+      "rho": 0.7322
+     },
+     {
+      "train": 2016,
+      "test": 2021,
+      "cost": 0.01009,
+      "n_star": 319.8,
+      "rho": 0.6396
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.6396,
+    "rho_median": 0.6859,
+    "rho_max": 0.7322
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2015,
+      "test": 2021,
+      "cost": 0.0104,
+      "n_star": 315.4,
+      "rho": 0.6309
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.6309,
+    "rho_median": 0.6309,
+    "rho_max": 0.6309
+   }
+  }
+ }
+}

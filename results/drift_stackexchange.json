@@ -1,0 +1,1781 @@
+{
+ "n_cells": 210,
+ "spearman_jsd_vs_f1_loss": {
+  "rho": 0.2574,
+  "p": 0.00016219798612576868
+ },
+ "spearman_gap_vs_jsd": {
+  "rho": 0.2139,
+  "p": 0.0018280368269571233
+ },
+ "by_gap": {
+  "1": {
+   "mean_jsd": 0.08834,
+   "mean_f1_loss": 0.00561
+  },
+  "2": {
+   "mean_jsd": 0.08972,
+   "mean_f1_loss": 0.00569
+  },
+  "3": {
+   "mean_jsd": 0.091,
+   "mean_f1_loss": 0.00803
+  },
+  "4": {
+   "mean_jsd": 0.09182,
+   "mean_f1_loss": 0.01007
+  },
+  "5": {
+   "mean_jsd": 0.0928,
+   "mean_f1_loss": 0.0162
+  },
+  "6": {
+   "mean_jsd": 0.09372,
+   "mean_f1_loss": 0.01934
+  }
+ },
+ "by_class": {
+  "philosophy": {
+   "mean_jsd_gap1": 0.08331,
+   "mean_f1_loss_gap1": -0.00065,
+   "mean_f1_loss_all_gaps": 0.0046,
+   "same_year_f1": 0.74452
+  },
+  "photo": {
+   "mean_jsd_gap1": 0.07858,
+   "mean_f1_loss_gap1": 0.0023,
+   "mean_f1_loss_all_gaps": 0.00407,
+   "same_year_f1": 0.77805
+  },
+  "music": {
+   "mean_jsd_gap1": 0.07491,
+   "mean_f1_loss_gap1": 0.00257,
+   "mean_f1_loss_all_gaps": 0.0022,
+   "same_year_f1": 0.81455
+  },
+  "history": {
+   "mean_jsd_gap1": 0.12561,
+   "mean_f1_loss_gap1": 0.01254,
+   "mean_f1_loss_all_gaps": 0.02006,
+   "same_year_f1": 0.66211
+  },
+  "cooking": {
+   "mean_jsd_gap1": 0.08131,
+   "mean_f1_loss_gap1": 0.00025,
+   "mean_f1_loss_all_gaps": 0.00355,
+   "same_year_f1": 0.79337
+  },
+  "movies": {
+   "mean_jsd_gap1": 0.11951,
+   "mean_f1_loss_gap1": 0.00992,
+   "mean_f1_loss_all_gaps": 0.01712,
+   "same_year_f1": 0.69881
+  },
+  "bicycles": {
+   "mean_jsd_gap1": 0.07558,
+   "mean_f1_loss_gap1": -3e-05,
+   "mean_f1_loss_all_gaps": -0.00363,
+   "same_year_f1": 0.80908
+  },
+  "boardgames": {
+   "mean_jsd_gap1": 0.09197,
+   "mean_f1_loss_gap1": 0.00988,
+   "mean_f1_loss_all_gaps": 0.01161,
+   "same_year_f1": 0.78338
+  },
+  "gardening": {
+   "mean_jsd_gap1": 0.07327,
+   "mean_f1_loss_gap1": 0.01381,
+   "mean_f1_loss_all_gaps": 0.01902,
+   "same_year_f1": 0.82778
+  },
+  "chess": {
+   "mean_jsd_gap1": 0.07934,
+   "mean_f1_loss_gap1": 0.00549,
+   "mean_f1_loss_all_gaps": 0.00531,
+   "same_year_f1": 0.82028
+  }
+ },
+ "cells": [
+  {
+   "class": "philosophy",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.08227,
+   "f1_loss": 0.00573
+  },
+  {
+   "class": "philosophy",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.08129,
+   "f1_loss": 0.00811
+  },
+  {
+   "class": "philosophy",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.08358,
+   "f1_loss": -0.00967
+  },
+  {
+   "class": "philosophy",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.08611,
+   "f1_loss": 0.00523
+  },
+  {
+   "class": "philosophy",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.08736,
+   "f1_loss": 0.01553
+  },
+  {
+   "class": "philosophy",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.08703,
+   "f1_loss": 0.0015
+  },
+  {
+   "class": "philosophy",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.07997,
+   "f1_loss": 0.00207
+  },
+  {
+   "class": "philosophy",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.08281,
+   "f1_loss": 0.00217
+  },
+  {
+   "class": "philosophy",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.08469,
+   "f1_loss": 0.00636
+  },
+  {
+   "class": "philosophy",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.08558,
+   "f1_loss": 0.00655
+  },
+  {
+   "class": "philosophy",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.0853,
+   "f1_loss": 0.01051
+  },
+  {
+   "class": "philosophy",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.08116,
+   "f1_loss": -0.01034
+  },
+  {
+   "class": "philosophy",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.08301,
+   "f1_loss": 0.01838
+  },
+  {
+   "class": "philosophy",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.08393,
+   "f1_loss": 0.00135
+  },
+  {
+   "class": "philosophy",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.08403,
+   "f1_loss": 0.01272
+  },
+  {
+   "class": "philosophy",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.08457,
+   "f1_loss": 0.00657
+  },
+  {
+   "class": "philosophy",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.08607,
+   "f1_loss": 0.00639
+  },
+  {
+   "class": "philosophy",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.08685,
+   "f1_loss": 0.0185
+  },
+  {
+   "class": "philosophy",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.08604,
+   "f1_loss": -0.00133
+  },
+  {
+   "class": "philosophy",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.08602,
+   "f1_loss": -0.0031
+  },
+  {
+   "class": "philosophy",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.08587,
+   "f1_loss": -0.00658
+  },
+  {
+   "class": "photo",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.07479,
+   "f1_loss": 0.00596
+  },
+  {
+   "class": "photo",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.07701,
+   "f1_loss": -0.00072
+  },
+  {
+   "class": "photo",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.0767,
+   "f1_loss": -0.00748
+  },
+  {
+   "class": "photo",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.08125,
+   "f1_loss": 0.01497
+  },
+  {
+   "class": "photo",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.07903,
+   "f1_loss": 0.01043
+  },
+  {
+   "class": "photo",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.08561,
+   "f1_loss": 0.01291
+  },
+  {
+   "class": "photo",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.07681,
+   "f1_loss": 0.00408
+  },
+  {
+   "class": "photo",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.0787,
+   "f1_loss": -0.01725
+  },
+  {
+   "class": "photo",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.0833,
+   "f1_loss": 0.01102
+  },
+  {
+   "class": "photo",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.0801,
+   "f1_loss": 0.01353
+  },
+  {
+   "class": "photo",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.087,
+   "f1_loss": 0.00428
+  },
+  {
+   "class": "photo",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.07774,
+   "f1_loss": -0.02329
+  },
+  {
+   "class": "photo",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.0812,
+   "f1_loss": -0.00112
+  },
+  {
+   "class": "photo",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.07922,
+   "f1_loss": 0.00444
+  },
+  {
+   "class": "photo",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.0851,
+   "f1_loss": 0.00605
+  },
+  {
+   "class": "photo",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.08107,
+   "f1_loss": 0.01591
+  },
+  {
+   "class": "photo",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.07764,
+   "f1_loss": 0.01214
+  },
+  {
+   "class": "photo",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.08557,
+   "f1_loss": 0.01082
+  },
+  {
+   "class": "photo",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.07907,
+   "f1_loss": 0.00327
+  },
+  {
+   "class": "photo",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.08606,
+   "f1_loss": -0.00232
+  },
+  {
+   "class": "photo",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.08202,
+   "f1_loss": 0.00786
+  },
+  {
+   "class": "music",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.07113,
+   "f1_loss": 0.00146
+  },
+  {
+   "class": "music",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.07116,
+   "f1_loss": 0.00282
+  },
+  {
+   "class": "music",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.07426,
+   "f1_loss": 0.00173
+  },
+  {
+   "class": "music",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.07683,
+   "f1_loss": -0.00381
+  },
+  {
+   "class": "music",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.07737,
+   "f1_loss": 0.01477
+  },
+  {
+   "class": "music",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.07919,
+   "f1_loss": -0.0054
+  },
+  {
+   "class": "music",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.07185,
+   "f1_loss": -0.00535
+  },
+  {
+   "class": "music",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.07727,
+   "f1_loss": -0.01596
+  },
+  {
+   "class": "music",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.07673,
+   "f1_loss": -0.00403
+  },
+  {
+   "class": "music",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.07913,
+   "f1_loss": 0.0062
+  },
+  {
+   "class": "music",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.08168,
+   "f1_loss": 0.00458
+  },
+  {
+   "class": "music",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.07418,
+   "f1_loss": -0.00159
+  },
+  {
+   "class": "music",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.07323,
+   "f1_loss": 0.00044
+  },
+  {
+   "class": "music",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.07725,
+   "f1_loss": 0.0157
+  },
+  {
+   "class": "music",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.07841,
+   "f1_loss": -0.00154
+  },
+  {
+   "class": "music",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.07602,
+   "f1_loss": -0.00785
+  },
+  {
+   "class": "music",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.07727,
+   "f1_loss": 0.00606
+  },
+  {
+   "class": "music",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.07926,
+   "f1_loss": 0.00831
+  },
+  {
+   "class": "music",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.07725,
+   "f1_loss": 0.02624
+  },
+  {
+   "class": "music",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.0789,
+   "f1_loss": 0.00087
+  },
+  {
+   "class": "music",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.07903,
+   "f1_loss": 0.00252
+  },
+  {
+   "class": "history",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.12068,
+   "f1_loss": -0.0124
+  },
+  {
+   "class": "history",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.12058,
+   "f1_loss": -0.00315
+  },
+  {
+   "class": "history",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.12549,
+   "f1_loss": -0.01473
+  },
+  {
+   "class": "history",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.12722,
+   "f1_loss": 0.02439
+  },
+  {
+   "class": "history",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.13048,
+   "f1_loss": 0.02485
+  },
+  {
+   "class": "history",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.12937,
+   "f1_loss": 0.0454
+  },
+  {
+   "class": "history",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.12266,
+   "f1_loss": 0.01889
+  },
+  {
+   "class": "history",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.12723,
+   "f1_loss": 0.00193
+  },
+  {
+   "class": "history",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.12855,
+   "f1_loss": 0.0168
+  },
+  {
+   "class": "history",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.13018,
+   "f1_loss": 0.02294
+  },
+  {
+   "class": "history",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.13172,
+   "f1_loss": 0.03904
+  },
+  {
+   "class": "history",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.12496,
+   "f1_loss": -0.00613
+  },
+  {
+   "class": "history",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.12575,
+   "f1_loss": 0.02596
+  },
+  {
+   "class": "history",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.12825,
+   "f1_loss": 0.0204
+  },
+  {
+   "class": "history",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.12677,
+   "f1_loss": 0.02819
+  },
+  {
+   "class": "history",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.12972,
+   "f1_loss": 0.00533
+  },
+  {
+   "class": "history",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.1299,
+   "f1_loss": 0.02652
+  },
+  {
+   "class": "history",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.13187,
+   "f1_loss": 0.03744
+  },
+  {
+   "class": "history",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.12775,
+   "f1_loss": 0.04881
+  },
+  {
+   "class": "history",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.12868,
+   "f1_loss": 0.05007
+  },
+  {
+   "class": "history",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.1279,
+   "f1_loss": 0.02076
+  },
+  {
+   "class": "cooking",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.07972,
+   "f1_loss": -0.00418
+  },
+  {
+   "class": "cooking",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.07993,
+   "f1_loss": 0.01029
+  },
+  {
+   "class": "cooking",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.07974,
+   "f1_loss": 0.01008
+  },
+  {
+   "class": "cooking",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.08431,
+   "f1_loss": -0.0065
+  },
+  {
+   "class": "cooking",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.08476,
+   "f1_loss": 0.01841
+  },
+  {
+   "class": "cooking",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.08515,
+   "f1_loss": 0.00645
+  },
+  {
+   "class": "cooking",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.0814,
+   "f1_loss": -0.00248
+  },
+  {
+   "class": "cooking",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.07842,
+   "f1_loss": 0.00917
+  },
+  {
+   "class": "cooking",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.08434,
+   "f1_loss": -0.01597
+  },
+  {
+   "class": "cooking",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.08401,
+   "f1_loss": 0.00708
+  },
+  {
+   "class": "cooking",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.08383,
+   "f1_loss": 0.00509
+  },
+  {
+   "class": "cooking",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.08017,
+   "f1_loss": 0.0003
+  },
+  {
+   "class": "cooking",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.08411,
+   "f1_loss": -0.01546
+  },
+  {
+   "class": "cooking",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.08447,
+   "f1_loss": 0.01476
+  },
+  {
+   "class": "cooking",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.08293,
+   "f1_loss": 0.0028
+  },
+  {
+   "class": "cooking",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.08202,
+   "f1_loss": -0.01185
+  },
+  {
+   "class": "cooking",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.08167,
+   "f1_loss": 0.01494
+  },
+  {
+   "class": "cooking",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.08266,
+   "f1_loss": 0.00962
+  },
+  {
+   "class": "cooking",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.08157,
+   "f1_loss": 0.02447
+  },
+  {
+   "class": "cooking",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.08372,
+   "f1_loss": 0.0022
+  },
+  {
+   "class": "cooking",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.08296,
+   "f1_loss": -0.00474
+  },
+  {
+   "class": "movies",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.11342,
+   "f1_loss": -0.00361
+  },
+  {
+   "class": "movies",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.11363,
+   "f1_loss": -0.00233
+  },
+  {
+   "class": "movies",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.1196,
+   "f1_loss": -0.03038
+  },
+  {
+   "class": "movies",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.1212,
+   "f1_loss": 0.02523
+  },
+  {
+   "class": "movies",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.11984,
+   "f1_loss": 0.02127
+  },
+  {
+   "class": "movies",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.12049,
+   "f1_loss": 0.03537
+  },
+  {
+   "class": "movies",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.11438,
+   "f1_loss": 0.0051
+  },
+  {
+   "class": "movies",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.12301,
+   "f1_loss": -0.00734
+  },
+  {
+   "class": "movies",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.12485,
+   "f1_loss": 0.02839
+  },
+  {
+   "class": "movies",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.12225,
+   "f1_loss": 0.0256
+  },
+  {
+   "class": "movies",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.12158,
+   "f1_loss": 0.02862
+  },
+  {
+   "class": "movies",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.12038,
+   "f1_loss": -0.00711
+  },
+  {
+   "class": "movies",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.12035,
+   "f1_loss": 0.01767
+  },
+  {
+   "class": "movies",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.12118,
+   "f1_loss": 0.00936
+  },
+  {
+   "class": "movies",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.12259,
+   "f1_loss": 0.03863
+  },
+  {
+   "class": "movies",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.12228,
+   "f1_loss": 0.01339
+  },
+  {
+   "class": "movies",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.12622,
+   "f1_loss": 0.02513
+  },
+  {
+   "class": "movies",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.12431,
+   "f1_loss": 0.0403
+  },
+  {
+   "class": "movies",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.12506,
+   "f1_loss": 0.01433
+  },
+  {
+   "class": "movies",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.12514,
+   "f1_loss": 0.04445
+  },
+  {
+   "class": "movies",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.12156,
+   "f1_loss": 0.03745
+  },
+  {
+   "class": "bicycles",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.07426,
+   "f1_loss": 0.02136
+  },
+  {
+   "class": "bicycles",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.07456,
+   "f1_loss": 0.01137
+  },
+  {
+   "class": "bicycles",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.07692,
+   "f1_loss": -0.00192
+  },
+  {
+   "class": "bicycles",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.07847,
+   "f1_loss": -0.02024
+  },
+  {
+   "class": "bicycles",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.08071,
+   "f1_loss": 0.00466
+  },
+  {
+   "class": "bicycles",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.08335,
+   "f1_loss": 0.01192
+  },
+  {
+   "class": "bicycles",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.07508,
+   "f1_loss": -0.00492
+  },
+  {
+   "class": "bicycles",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.07423,
+   "f1_loss": -0.01622
+  },
+  {
+   "class": "bicycles",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.07933,
+   "f1_loss": -0.02528
+  },
+  {
+   "class": "bicycles",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.08004,
+   "f1_loss": -0.02347
+  },
+  {
+   "class": "bicycles",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.0822,
+   "f1_loss": 0.00046
+  },
+  {
+   "class": "bicycles",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.07518,
+   "f1_loss": 0.00642
+  },
+  {
+   "class": "bicycles",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.07791,
+   "f1_loss": -0.03318
+  },
+  {
+   "class": "bicycles",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.07882,
+   "f1_loss": 0.00495
+  },
+  {
+   "class": "bicycles",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.08096,
+   "f1_loss": 0.0094
+  },
+  {
+   "class": "bicycles",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.07514,
+   "f1_loss": -0.02499
+  },
+  {
+   "class": "bicycles",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.07763,
+   "f1_loss": -0.00379
+  },
+  {
+   "class": "bicycles",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.07921,
+   "f1_loss": 0.0181
+  },
+  {
+   "class": "bicycles",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.07476,
+   "f1_loss": 0.00222
+  },
+  {
+   "class": "bicycles",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.07835,
+   "f1_loss": -0.0128
+  },
+  {
+   "class": "bicycles",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.07907,
+   "f1_loss": -0.00026
+  },
+  {
+   "class": "boardgames",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.08645,
+   "f1_loss": 0.00358
+  },
+  {
+   "class": "boardgames",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.09123,
+   "f1_loss": 0.00547
+  },
+  {
+   "class": "boardgames",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.09306,
+   "f1_loss": 0.00055
+  },
+  {
+   "class": "boardgames",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.09891,
+   "f1_loss": -0.03072
+  },
+  {
+   "class": "boardgames",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.09753,
+   "f1_loss": 0.01654
+  },
+  {
+   "class": "boardgames",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.09776,
+   "f1_loss": 0.03419
+  },
+  {
+   "class": "boardgames",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.08979,
+   "f1_loss": 0.01938
+  },
+  {
+   "class": "boardgames",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.0922,
+   "f1_loss": -0.00067
+  },
+  {
+   "class": "boardgames",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.09587,
+   "f1_loss": -0.01409
+  },
+  {
+   "class": "boardgames",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.09569,
+   "f1_loss": 0.01644
+  },
+  {
+   "class": "boardgames",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.09696,
+   "f1_loss": 0.03408
+  },
+  {
+   "class": "boardgames",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.09296,
+   "f1_loss": 0.00299
+  },
+  {
+   "class": "boardgames",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.09764,
+   "f1_loss": -0.0097
+  },
+  {
+   "class": "boardgames",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.09667,
+   "f1_loss": 0.0217
+  },
+  {
+   "class": "boardgames",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.09794,
+   "f1_loss": 0.03803
+  },
+  {
+   "class": "boardgames",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.09083,
+   "f1_loss": -0.01102
+  },
+  {
+   "class": "boardgames",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.09475,
+   "f1_loss": -0.00386
+  },
+  {
+   "class": "boardgames",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.09802,
+   "f1_loss": 0.04527
+  },
+  {
+   "class": "boardgames",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.0941,
+   "f1_loss": 0.00784
+  },
+  {
+   "class": "boardgames",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.09949,
+   "f1_loss": 0.03124
+  },
+  {
+   "class": "boardgames",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.09771,
+   "f1_loss": 0.03654
+  },
+  {
+   "class": "gardening",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.07718,
+   "f1_loss": -0.00762
+  },
+  {
+   "class": "gardening",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.0771,
+   "f1_loss": 0.00421
+  },
+  {
+   "class": "gardening",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.07869,
+   "f1_loss": -0.01441
+  },
+  {
+   "class": "gardening",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.07809,
+   "f1_loss": 0.02858
+  },
+  {
+   "class": "gardening",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.07866,
+   "f1_loss": 0.02261
+  },
+  {
+   "class": "gardening",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.08036,
+   "f1_loss": 0.04786
+  },
+  {
+   "class": "gardening",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.07637,
+   "f1_loss": 0.01813
+  },
+  {
+   "class": "gardening",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.07853,
+   "f1_loss": -0.00989
+  },
+  {
+   "class": "gardening",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.07967,
+   "f1_loss": 0.02259
+  },
+  {
+   "class": "gardening",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.07706,
+   "f1_loss": 0.01682
+  },
+  {
+   "class": "gardening",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.07935,
+   "f1_loss": 0.03287
+  },
+  {
+   "class": "gardening",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.07644,
+   "f1_loss": 0.0162
+  },
+  {
+   "class": "gardening",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.07623,
+   "f1_loss": 0.0204
+  },
+  {
+   "class": "gardening",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.07533,
+   "f1_loss": 0.02039
+  },
+  {
+   "class": "gardening",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.07748,
+   "f1_loss": 0.03164
+  },
+  {
+   "class": "gardening",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.07309,
+   "f1_loss": 0.00902
+  },
+  {
+   "class": "gardening",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.07204,
+   "f1_loss": 0.01904
+  },
+  {
+   "class": "gardening",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.07562,
+   "f1_loss": 0.04184
+  },
+  {
+   "class": "gardening",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.06809,
+   "f1_loss": 0.01902
+  },
+  {
+   "class": "gardening",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.07391,
+   "f1_loss": 0.03202
+  },
+  {
+   "class": "gardening",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.06844,
+   "f1_loss": 0.02812
+  },
+  {
+   "class": "chess",
+   "train": 2015,
+   "test": 2016,
+   "gap": 1,
+   "jsd": 0.07656,
+   "f1_loss": 0.00059
+  },
+  {
+   "class": "chess",
+   "train": 2015,
+   "test": 2017,
+   "gap": 2,
+   "jsd": 0.07531,
+   "f1_loss": 0.02184
+  },
+  {
+   "class": "chess",
+   "train": 2015,
+   "test": 2018,
+   "gap": 3,
+   "jsd": 0.07743,
+   "f1_loss": 0.00244
+  },
+  {
+   "class": "chess",
+   "train": 2015,
+   "test": 2019,
+   "gap": 4,
+   "jsd": 0.08373,
+   "f1_loss": 0.00347
+  },
+  {
+   "class": "chess",
+   "train": 2015,
+   "test": 2020,
+   "gap": 5,
+   "jsd": 0.08318,
+   "f1_loss": 0.01618
+  },
+  {
+   "class": "chess",
+   "train": 2015,
+   "test": 2021,
+   "gap": 6,
+   "jsd": 0.08893,
+   "f1_loss": 0.00318
+  },
+  {
+   "class": "chess",
+   "train": 2016,
+   "test": 2017,
+   "gap": 1,
+   "jsd": 0.0778,
+   "f1_loss": 0.01973
+  },
+  {
+   "class": "chess",
+   "train": 2016,
+   "test": 2018,
+   "gap": 2,
+   "jsd": 0.08206,
+   "f1_loss": 0.00266
+  },
+  {
+   "class": "chess",
+   "train": 2016,
+   "test": 2019,
+   "gap": 3,
+   "jsd": 0.08383,
+   "f1_loss": 0.00695
+  },
+  {
+   "class": "chess",
+   "train": 2016,
+   "test": 2020,
+   "gap": 4,
+   "jsd": 0.08379,
+   "f1_loss": 0.00412
+  },
+  {
+   "class": "chess",
+   "train": 2016,
+   "test": 2021,
+   "gap": 5,
+   "jsd": 0.08748,
+   "f1_loss": -0.00079
+  },
+  {
+   "class": "chess",
+   "train": 2017,
+   "test": 2018,
+   "gap": 1,
+   "jsd": 0.07786,
+   "f1_loss": 0.00323
+  },
+  {
+   "class": "chess",
+   "train": 2017,
+   "test": 2019,
+   "gap": 2,
+   "jsd": 0.08104,
+   "f1_loss": -0.00263
+  },
+  {
+   "class": "chess",
+   "train": 2017,
+   "test": 2020,
+   "gap": 3,
+   "jsd": 0.08108,
+   "f1_loss": -0.00151
+  },
+  {
+   "class": "chess",
+   "train": 2017,
+   "test": 2021,
+   "gap": 4,
+   "jsd": 0.08446,
+   "f1_loss": -9e-05
+  },
+  {
+   "class": "chess",
+   "train": 2018,
+   "test": 2019,
+   "gap": 1,
+   "jsd": 0.08036,
+   "f1_loss": 0.00109
+  },
+  {
+   "class": "chess",
+   "train": 2018,
+   "test": 2020,
+   "gap": 2,
+   "jsd": 0.08015,
+   "f1_loss": 0.00556
+  },
+  {
+   "class": "chess",
+   "train": 2018,
+   "test": 2021,
+   "gap": 3,
+   "jsd": 0.08388,
+   "f1_loss": 0.01061
+  },
+  {
+   "class": "chess",
+   "train": 2019,
+   "test": 2020,
+   "gap": 1,
+   "jsd": 0.08104,
+   "f1_loss": 0.01511
+  },
+  {
+   "class": "chess",
+   "train": 2019,
+   "test": 2021,
+   "gap": 2,
+   "jsd": 0.08554,
+   "f1_loss": 0.00657
+  },
+  {
+   "class": "chess",
+   "train": 2020,
+   "test": 2021,
+   "gap": 1,
+   "jsd": 0.08245,
+   "f1_loss": -0.00682
+  }
+ ]
+}

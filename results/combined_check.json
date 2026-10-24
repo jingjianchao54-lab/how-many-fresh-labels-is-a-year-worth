@@ -1,0 +1,14 @@
+{
+ "reddit": {
+  "H1_lower_combined": 0.0019,
+  "H2_lower_combined": 0.0074,
+  "H3_min_replicate_n_star": 1248.2,
+  "half_N": 1000.0
+ },
+ "stackexchange": {
+  "H1_lower_combined": 0.00142,
+  "H2_lower_combined": 0.00315,
+  "H3_min_replicate_n_star": 310.2,
+  "half_N": 250.0
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "dataset": "reddit",
+ "locked_at": "2026-10-09 20:36:26 +0800",
+ "selected": {
+  "M1": {
+   "25": 1,
+   "50": 1,
+   "100": 1,
+   "200": 1,
+   "500": 10,
+   "1000": 10,
+   "2000": 10
+  },
+  "M2": {
+   "25": 1,
+   "50": 1,
+   "100": 1,
+   "200": 1,
+   "500": 0.1,
+   "1000": 1,
+   "2000": 1
+  },
+  "M3": {
+   "25": 0.5,
+   "50": 0.5,
+   "100": 0.5,
+   "200": 0.5,
+   "500": 1.0,
+   "1000": 1.0,
+   "2000": 1.0
+  },
+  "M4": {
+   "25": 0.1,
+   "50": 0.1,
+   "100": 0.1,
+   "200": 0.1,
+   "500": 0.1,
+   "1000": 0.1,
+   "2000": 1
+  }
+ },
+ "sha256": {
+  "analysis_plan.md": "283db2c2fffdc81c320dd113edae05693043d07dbbe7413819b8aab1a093003e",
+  "AMENDMENTS.md": "73bfa4c262917df6dfafc871833a0db7c58292175aa165fc6915862fc2bc8b10",
+  "work/sample_reddit.pkl": "4a3ab47614dc853fa087f2abbf6f6c99329eeeb4de92d56e46dff15f083e1b12",
+  "src/common.py": "9ccf5993a6bf7ae1a6552dc4557eef66c5b43acaf984e5f5fec4556806d4d4f4",
+  "src/features.py": "cb72021e4913c91171995de1406ce131acd902b4e19cfd9df25e3178de4a2512",
+  "src/run.py": "91f71dd3ffff16586c9a5819a72f812608c889a475b9c2b8412a07bd6cd01037",
+  "src/evaluate.py": "76f07bdeedcc921b4777d62fe93d1e7525f5197f8a43d8b02d1038e06e75cfaf",
+  "src/select_lock.py": "f97f7cdf5ad9a751c743637358232940961910a415918a14503de5f6fb7ce0ef"
+ }
+}

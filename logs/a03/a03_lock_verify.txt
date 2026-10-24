@@ -1,0 +1,33 @@
+[stackexchange / M5F]
+  locked_at = 2026-10-13 15:12:22 +0800
+  n=   25 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=   50 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=  100 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=  200 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=  500 years= 7 recomputed=1 locked=1 sel=OK table=OK
+[stackexchange / M6]
+  locked_at = 2026-10-13 15:12:23 +0800
+  n=   25 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=   50 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=  100 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=  200 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=  500 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+[reddit / M5F]
+  locked_at = 2026-10-13 15:57:42 +0800
+  n=   25 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=   50 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=  100 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=  200 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n=  500 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n= 1000 years= 7 recomputed=1 locked=1 sel=OK table=OK
+  n= 2000 years= 7 recomputed=1 locked=1 sel=OK table=OK
+[reddit / M6]
+  locked_at = 2026-10-13 15:57:44 +0800
+  n=   25 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=   50 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=  100 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=  200 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n=  500 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n= 1000 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+  n= 2000 years= 7 recomputed=5e-05 locked=5e-05 sel=OK table=OK
+>>> RESULT: lock files fully consistent with select run files

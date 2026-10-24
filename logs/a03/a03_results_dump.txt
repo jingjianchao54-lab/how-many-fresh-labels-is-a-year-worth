@@ -1,0 +1,41 @@
+=== 1) M1 identity check against the frozen baseline ===
+  SAME  results_stackexchange_A03.json M1 == results_stackexchange.json M1 (key by key)
+  SAME  results_stackexchange_rep1_A03e3.json M1 == results_stackexchange_rep1.json M1 (key by key)
+  SAME  results_reddit_A03.json M1 == results_reddit.json M1 (key by key)
+  SAME  results_reddit_rep1_A03e3.json M1 == results_reddit_rep1.json M1 (key by key)
+
+=== 2) required quantities, read straight from the JSON ===
+  -- results_stackexchange_A03.json
+     replicates=[1, 2, 3, 4, 5] years=2015..2021 gmax=6 N=500
+     M1   same-year=0.77319  C(1)=0.00561  C(6)=0.01934  n*(1)=449.7  n*(6)=347.7
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0005, "H2": 0.0005, "H3": 1.0}, "holm_p": {"H1": 0.0015, "H2": 0.0015, "H3": 1.0}}
+     M5F  same-year=0.84758  C(1)=0.00206  C(6)=0.00697  n*(1)=378.7  n*(6)=266.5
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.042, "H2": 0.0605, "H3": 0.613}, "holm_p": {"H1": 0.126, "H2": 0.126, "H3": 0.613}}
+     M6   same-year=0.86294  C(1)=0.00456  C(6)=0.01040  n*(1)=384.4  n*(6)=315.4
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0, "H2": 0.021, "H3": 0.98}, "holm_p": {"H1": 0.0, "H2": 0.042, "H3": 0.98}}
+  -- results_stackexchange_rep1_A03e3.json
+     replicates=[1] years=2015..2021 gmax=6 N=500
+     M1   same-year=0.77247  C(1)=0.00286  C(6)=0.01742  n*(1)=475.1  n*(6)=376.1
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.15, "H2": 0.015, "H3": 1.0}, "holm_p": {"H1": 0.3, "H2": 0.045, "H3": 1.0}}
+     M5F  same-year=0.84689  C(1)=0.00161  C(6)=0.00537  n*(1)=413.4  n*(6)=290.0
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.1625, "H2": 0.195, "H3": 0.6295}, "holm_p": {"H1": 0.4875, "H2": 0.4875, "H3": 0.6295}}
+     M6   same-year=0.86216  C(1)=0.00240  C(6)=0.00001  n*(1)=438.7  n*(6)=499.5
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0915, "H2": 0.6985, "H3": 0.9815}, "holm_p": {"H1": 0.2745, "H2": 1.0, "H3": 1.0}}
+  -- results_reddit_A03.json
+     replicates=[1, 2, 3, 4, 5] years=2012..2018 gmax=6 N=2000
+     M1   same-year=0.72696  C(1)=0.00396  C(6)=0.01694  n*(1)=1823.3  n*(6)=1317.3
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0, "H2": 0.0, "H3": 1.0}, "holm_p": {"H1": 0.0, "H2": 0.0, "H3": 1.0}}
+     M5F  same-year=0.78908  C(1)=0.00281  C(6)=0.01358  n*(1)=1108.8  n*(6)=212.6
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0, "H2": 0.0, "H3": 0.0}, "holm_p": {"H1": 0.0, "H2": 0.0, "H3": 0.0}}
+     M6   same-year=0.80427  C(1)=0.00390  C(6)=0.01761  n*(1)=1531.6  n*(6)=685.3
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0, "H2": 0.0, "H3": 0.002}, "holm_p": {"H1": 0.0, "H2": 0.0, "H3": 0.002}}
+  -- results_reddit_rep1_A03e3.json
+     replicates=[1] years=2012..2018 gmax=6 N=2000
+     M1   same-year=0.72724  C(1)=0.00538  C(6)=0.01412  n*(1)=1754.0  n*(6)=1428.9
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.0, "H2": 0.0115, "H3": 1.0}, "holm_p": {"H1": 0.0, "H2": 0.023, "H3": 1.0}}
+     M5F  same-year=0.79000  C(1)=0.00321  C(6)=0.01609  n*(1)=1065.9  n*(6)=189.4
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.002, "H2": 0.0, "H3": 0.0}, "holm_p": {"H1": 0.002, "H2": 0.0, "H3": 0.0}}
+     M6   same-year=0.80388  C(1)=0.00059  C(6)=0.01121  n*(1)=1918.7  n*(6)=763.3
+          hypotheses: {"bootstrap_p_one_sided": {"H1": 0.335, "H2": 0.0005, "H3": 0.146}, "holm_p": {"H1": 0.335, "H2": 0.0015, "H3": 0.292}}
+
+>>> RESULT: M1 identical everywhere; quantities extracted

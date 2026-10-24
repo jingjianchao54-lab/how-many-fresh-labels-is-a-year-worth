@@ -1,0 +1,10 @@
+[stackexchange / select / M5F] from_code=105 registered=105 on_disk=105 missing=0 extra=0 OK
+[stackexchange / select / M6] from_code=70 registered=70 on_disk=70 missing=0 extra=0 OK
+[stackexchange / test / M5F] from_code=315 registered=315 on_disk=315 missing=0 extra=0 OK
+[stackexchange / test / M6] from_code=203 registered=203 on_disk=203 missing=0 extra=0 OK
+[reddit / select / M5F] from_code=147 registered=147 on_disk=147 missing=0 extra=0 OK
+[reddit / select / M6] from_code=98 registered=98 on_disk=98 missing=0 extra=0 OK
+[reddit / test / M5F] from_code=455 registered=455 on_disk=455 missing=0 extra=0 OK
+[reddit / test / M6] from_code=287 registered=287 on_disk=287 missing=0 extra=0 OK
+
+>>> RESULT: run-to-result map complete

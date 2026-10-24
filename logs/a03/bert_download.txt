@@ -1,0 +1,2 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [01:58<00:00, 23.67s/it]Fetching 5 files: 100%|██████████| 5/5 [01:58<00:00, 23.67s/it]
+downloaded to <server>/paper5/models/bert-base-uncased

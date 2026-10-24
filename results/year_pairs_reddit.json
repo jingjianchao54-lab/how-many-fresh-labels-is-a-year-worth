@@ -1,0 +1,1233 @@
+{
+ "dataset": "reddit",
+ "sizes": [
+  25,
+  50,
+  100,
+  200,
+  500,
+  1000,
+  2000
+ ],
+ "N": 2000,
+ "models": {
+  "M1": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2013,
+      "cost": 0.00735,
+      "n_star": 1685.1,
+      "rho": 0.8426
+     },
+     {
+      "train": 2013,
+      "test": 2014,
+      "cost": 0.0043,
+      "n_star": 1805.5,
+      "rho": 0.9028
+     },
+     {
+      "train": 2014,
+      "test": 2015,
+      "cost": -0.00048,
+      "n_star": ">2000",
+      "rho": null
+     },
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00627,
+      "n_star": 1723.5,
+      "rho": 0.8618
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00672,
+      "n_star": 1737.6,
+      "rho": 0.8688
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": -0.00037,
+      "n_star": ">2000",
+      "rho": null
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 2,
+    "rho_min": 0.8426,
+    "rho_median": 0.8653,
+    "rho_max": 0.9028
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2014,
+      "cost": 0.00962,
+      "n_star": 1590.9,
+      "rho": 0.7955
+     },
+     {
+      "train": 2013,
+      "test": 2015,
+      "cost": 0.00822,
+      "n_star": 1643.2,
+      "rho": 0.8216
+     },
+     {
+      "train": 2014,
+      "test": 2016,
+      "cost": 0.00835,
+      "n_star": 1640.5,
+      "rho": 0.8203
+     },
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.01217,
+      "n_star": 1550.1,
+      "rho": 0.775
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00562,
+      "n_star": 1741.2,
+      "rho": 0.8706
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 0,
+    "rho_min": 0.775,
+    "rho_median": 0.8203,
+    "rho_max": 0.8706
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2015,
+      "cost": 0.00936,
+      "n_star": 1599.0,
+      "rho": 0.7995
+     },
+     {
+      "train": 2013,
+      "test": 2016,
+      "cost": 0.01197,
+      "n_star": 1505.4,
+      "rho": 0.7527
+     },
+     {
+      "train": 2014,
+      "test": 2017,
+      "cost": 0.01074,
+      "n_star": 1597.2,
+      "rho": 0.7986
+     },
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.0047,
+      "n_star": 1781.2,
+      "rho": 0.8906
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.7527,
+    "rho_median": 0.79905,
+    "rho_max": 0.8906
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2016,
+      "cost": 0.0148,
+      "n_star": 1407.9,
+      "rho": 0.7039
+     },
+     {
+      "train": 2013,
+      "test": 2017,
+      "cost": 0.01557,
+      "n_star": 1443.6,
+      "rho": 0.7218
+     },
+     {
+      "train": 2014,
+      "test": 2018,
+      "cost": 0.01116,
+      "n_star": 1518.9,
+      "rho": 0.7595
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.7039,
+    "rho_median": 0.7218,
+    "rho_max": 0.7595
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2017,
+      "cost": 0.02106,
+      "n_star": 1286.7,
+      "rho": 0.6433
+     },
+     {
+      "train": 2013,
+      "test": 2018,
+      "cost": 0.01575,
+      "n_star": 1356.3,
+      "rho": 0.6781
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.6433,
+    "rho_median": 0.6607000000000001,
+    "rho_max": 0.6781
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2018,
+      "cost": 0.01694,
+      "n_star": 1317.3,
+      "rho": 0.6587
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.6587,
+    "rho_median": 0.6587,
+    "rho_max": 0.6587
+   }
+  },
+  "M2": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2013,
+      "cost": 0.00805,
+      "n_star": 1649.6,
+      "rho": 0.8248
+     },
+     {
+      "train": 2013,
+      "test": 2014,
+      "cost": 0.00406,
+      "n_star": 1817.0,
+      "rho": 0.9085
+     },
+     {
+      "train": 2014,
+      "test": 2015,
+      "cost": 0.0007,
+      "n_star": 1964.0,
+      "rho": 0.982
+     },
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00571,
+      "n_star": 1743.2,
+      "rho": 0.8716
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00771,
+      "n_star": 1690.8,
+      "rho": 0.8454
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00473,
+      "n_star": 1782.6,
+      "rho": 0.8913
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.8248,
+    "rho_median": 0.8814500000000001,
+    "rho_max": 0.982
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2014,
+      "cost": 0.01047,
+      "n_star": 1561.4,
+      "rho": 0.7807
+     },
+     {
+      "train": 2013,
+      "test": 2015,
+      "cost": 0.00852,
+      "n_star": 1601.7,
+      "rho": 0.8009
+     },
+     {
+      "train": 2014,
+      "test": 2016,
+      "cost": 0.00894,
+      "n_star": 1612.8,
+      "rho": 0.8064
+     },
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.01182,
+      "n_star": 1545.7,
+      "rho": 0.7728
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00913,
+      "n_star": 1601.4,
+      "rho": 0.8007
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 0,
+    "rho_min": 0.7728,
+    "rho_median": 0.8007,
+    "rho_max": 0.8064
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2015,
+      "cost": 0.01257,
+      "n_star": 1441.1,
+      "rho": 0.7206
+     },
+     {
+      "train": 2013,
+      "test": 2016,
+      "cost": 0.01005,
+      "n_star": 1570.0,
+      "rho": 0.785
+     },
+     {
+      "train": 2014,
+      "test": 2017,
+      "cost": 0.00977,
+      "n_star": 1616.4,
+      "rho": 0.8082
+     },
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.0097,
+      "n_star": 1579.2,
+      "rho": 0.7896
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.7206,
+    "rho_median": 0.7873,
+    "rho_max": 0.8082
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2016,
+      "cost": 0.01405,
+      "n_star": 1426.1,
+      "rho": 0.7131
+     },
+     {
+      "train": 2013,
+      "test": 2017,
+      "cost": 0.01563,
+      "n_star": 1422.7,
+      "rho": 0.7113
+     },
+     {
+      "train": 2014,
+      "test": 2018,
+      "cost": 0.01369,
+      "n_star": 1433.0,
+      "rho": 0.7165
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.7113,
+    "rho_median": 0.7131,
+    "rho_max": 0.7165
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2017,
+      "cost": 0.02088,
+      "n_star": 1268.8,
+      "rho": 0.6344
+     },
+     {
+      "train": 2013,
+      "test": 2018,
+      "cost": 0.01936,
+      "n_star": 1248.0,
+      "rho": 0.624
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.624,
+    "rho_median": 0.6292,
+    "rho_max": 0.6344
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2018,
+      "cost": 0.02096,
+      "n_star": 1200.6,
+      "rho": 0.6003
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.6003,
+    "rho_median": 0.6003,
+    "rho_max": 0.6003
+   }
+  },
+  "M3": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2013,
+      "cost": 0.00317,
+      "n_star": 1779.4,
+      "rho": 0.8897
+     },
+     {
+      "train": 2013,
+      "test": 2014,
+      "cost": 0.00155,
+      "n_star": 1890.3,
+      "rho": 0.9452
+     },
+     {
+      "train": 2014,
+      "test": 2015,
+      "cost": 0.00051,
+      "n_star": 1964.0,
+      "rho": 0.982
+     },
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00566,
+      "n_star": 1687.9,
+      "rho": 0.844
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00731,
+      "n_star": 1614.9,
+      "rho": 0.8074
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00353,
+      "n_star": 1760.0,
+      "rho": 0.88
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.8074,
+    "rho_median": 0.88485,
+    "rho_max": 0.982
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2014,
+      "cost": 0.00428,
+      "n_star": 1711.1,
+      "rho": 0.8555
+     },
+     {
+      "train": 2013,
+      "test": 2015,
+      "cost": 0.00499,
+      "n_star": 1675.6,
+      "rho": 0.8378
+     },
+     {
+      "train": 2014,
+      "test": 2016,
+      "cost": 0.00946,
+      "n_star": 1505.8,
+      "rho": 0.7529
+     },
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.00796,
+      "n_star": 1584.2,
+      "rho": 0.7921
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00712,
+      "n_star": 1545.3,
+      "rho": 0.7726
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 0,
+    "rho_min": 0.7529,
+    "rho_median": 0.7921,
+    "rho_max": 0.8555
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2015,
+      "cost": 0.00708,
+      "n_star": 1556.0,
+      "rho": 0.778
+     },
+     {
+      "train": 2013,
+      "test": 2016,
+      "cost": 0.00712,
+      "n_star": 1615.4,
+      "rho": 0.8077
+     },
+     {
+      "train": 2014,
+      "test": 2017,
+      "cost": 0.00853,
+      "n_star": 1558.1,
+      "rho": 0.7791
+     },
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00988,
+      "n_star": 1398.1,
+      "rho": 0.6991
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.6991,
+    "rho_median": 0.7785500000000001,
+    "rho_max": 0.8077
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2016,
+      "cost": 0.01073,
+      "n_star": 1449.7,
+      "rho": 0.7249
+     },
+     {
+      "train": 2013,
+      "test": 2017,
+      "cost": 0.01217,
+      "n_star": 1400.5,
+      "rho": 0.7003
+     },
+     {
+      "train": 2014,
+      "test": 2018,
+      "cost": 0.01016,
+      "n_star": 1383.7,
+      "rho": 0.6918
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.6918,
+    "rho_median": 0.7003,
+    "rho_max": 0.7249
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2017,
+      "cost": 0.01492,
+      "n_star": 1292.3,
+      "rho": 0.6462
+     },
+     {
+      "train": 2013,
+      "test": 2018,
+      "cost": 0.01173,
+      "n_star": 1307.0,
+      "rho": 0.6535
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.6462,
+    "rho_median": 0.64985,
+    "rho_max": 0.6535
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2018,
+      "cost": 0.0157,
+      "n_star": 1132.0,
+      "rho": 0.566
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.566,
+    "rho_median": 0.566,
+    "rho_max": 0.566
+   }
+  },
+  "M4": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2013,
+      "cost": 0.00047,
+      "n_star": 1876.8,
+      "rho": 0.9384
+     },
+     {
+      "train": 2013,
+      "test": 2014,
+      "cost": 0.00064,
+      "n_star": 1890.9,
+      "rho": 0.9455
+     },
+     {
+      "train": 2014,
+      "test": 2015,
+      "cost": 0.00128,
+      "n_star": 1746.0,
+      "rho": 0.873
+     },
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00165,
+      "n_star": 1620.6,
+      "rho": 0.8103
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00148,
+      "n_star": 1784.1,
+      "rho": 0.892
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00237,
+      "n_star": 1508.7,
+      "rho": 0.7543
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.7543,
+    "rho_median": 0.8825000000000001,
+    "rho_max": 0.9455
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2014,
+      "cost": 0.00435,
+      "n_star": 1369.4,
+      "rho": 0.6847
+     },
+     {
+      "train": 2013,
+      "test": 2015,
+      "cost": 0.00455,
+      "n_star": 1235.2,
+      "rho": 0.6176
+     },
+     {
+      "train": 2014,
+      "test": 2016,
+      "cost": 0.00278,
+      "n_star": 1401.8,
+      "rho": 0.7009
+     },
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.00419,
+      "n_star": 1447.6,
+      "rho": 0.7238
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00345,
+      "n_star": 1327.1,
+      "rho": 0.6635
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 0,
+    "rho_min": 0.6176,
+    "rho_median": 0.6847,
+    "rho_max": 0.7238
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2015,
+      "cost": 0.00462,
+      "n_star": 1226.2,
+      "rho": 0.6131
+     },
+     {
+      "train": 2013,
+      "test": 2016,
+      "cost": 0.0044,
+      "n_star": 1139.8,
+      "rho": 0.5699
+     },
+     {
+      "train": 2014,
+      "test": 2017,
+      "cost": 0.00459,
+      "n_star": 1404.1,
+      "rho": 0.702
+     },
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00356,
+      "n_star": 1309.7,
+      "rho": 0.6549
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.5699,
+    "rho_median": 0.634,
+    "rho_max": 0.702
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2016,
+      "cost": 0.00624,
+      "n_star": 957.3,
+      "rho": 0.4787
+     },
+     {
+      "train": 2013,
+      "test": 2017,
+      "cost": 0.01041,
+      "n_star": 927.5,
+      "rho": 0.4638
+     },
+     {
+      "train": 2014,
+      "test": 2018,
+      "cost": 0.00394,
+      "n_star": 1251.0,
+      "rho": 0.6255
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.4638,
+    "rho_median": 0.4787,
+    "rho_max": 0.6255
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2017,
+      "cost": 0.01093,
+      "n_star": 902.2,
+      "rho": 0.4511
+     },
+     {
+      "train": 2013,
+      "test": 2018,
+      "cost": 0.01006,
+      "n_star": 762.2,
+      "rho": 0.3811
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.3811,
+    "rho_median": 0.4161,
+    "rho_max": 0.4511
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2018,
+      "cost": 0.01039,
+      "n_star": 746.6,
+      "rho": 0.3733
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.3733,
+    "rho_median": 0.3733,
+    "rho_max": 0.3733
+   }
+  },
+  "M5F": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2013,
+      "cost": -0.00052,
+      "n_star": ">2000",
+      "rho": null
+     },
+     {
+      "train": 2013,
+      "test": 2014,
+      "cost": 0.00233,
+      "n_star": 1117.2,
+      "rho": 0.5586
+     },
+     {
+      "train": 2014,
+      "test": 2015,
+      "cost": 0.0053,
+      "n_star": 732.7,
+      "rho": 0.3664
+     },
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00257,
+      "n_star": 1390.2,
+      "rho": 0.6951
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.0026,
+      "n_star": 1128.2,
+      "rho": 0.5641
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.0046,
+      "n_star": 785.5,
+      "rho": 0.3927
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 1,
+    "rho_min": 0.3664,
+    "rho_median": 0.5586,
+    "rho_max": 0.6951
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2014,
+      "cost": 0.00223,
+      "n_star": 1144.7,
+      "rho": 0.5724
+     },
+     {
+      "train": 2013,
+      "test": 2015,
+      "cost": 0.00416,
+      "n_star": 875.8,
+      "rho": 0.4379
+     },
+     {
+      "train": 2014,
+      "test": 2016,
+      "cost": 0.00448,
+      "n_star": 1059.8,
+      "rho": 0.5299
+     },
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.0037,
+      "n_star": 922.6,
+      "rho": 0.4613
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.00351,
+      "n_star": 907.7,
+      "rho": 0.4539
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 0,
+    "rho_min": 0.4379,
+    "rho_median": 0.4613,
+    "rho_max": 0.5724
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2015,
+      "cost": 0.0086,
+      "n_star": 437.4,
+      "rho": 0.2187
+     },
+     {
+      "train": 2013,
+      "test": 2016,
+      "cost": 0.00254,
+      "n_star": 1396.4,
+      "rho": 0.6982
+     },
+     {
+      "train": 2014,
+      "test": 2017,
+      "cost": 0.00767,
+      "n_star": 519.4,
+      "rho": 0.2597
+     },
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00625,
+      "n_star": 630.3,
+      "rho": 0.3152
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.2187,
+    "rho_median": 0.28745,
+    "rho_max": 0.6982
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2016,
+      "cost": 0.01024,
+      "n_star": 407.3,
+      "rho": 0.2037
+     },
+     {
+      "train": 2013,
+      "test": 2017,
+      "cost": 0.00988,
+      "n_star": 394.5,
+      "rho": 0.1972
+     },
+     {
+      "train": 2014,
+      "test": 2018,
+      "cost": 0.0082,
+      "n_star": 484.1,
+      "rho": 0.242
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.1972,
+    "rho_median": 0.2037,
+    "rho_max": 0.242
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2017,
+      "cost": 0.0119,
+      "n_star": 308.5,
+      "rho": 0.1543
+     },
+     {
+      "train": 2013,
+      "test": 2018,
+      "cost": 0.01054,
+      "n_star": 338.8,
+      "rho": 0.1694
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.1543,
+    "rho_median": 0.16185,
+    "rho_max": 0.1694
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2018,
+      "cost": 0.01358,
+      "n_star": 212.6,
+      "rho": 0.1063
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.1063,
+    "rho_median": 0.1063,
+    "rho_max": 0.1063
+   }
+  },
+  "M6": {
+   "1": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2013,
+      "cost": 0.00266,
+      "n_star": 1597.9,
+      "rho": 0.799
+     },
+     {
+      "train": 2013,
+      "test": 2014,
+      "cost": 0.00573,
+      "n_star": 1431.5,
+      "rho": 0.7157
+     },
+     {
+      "train": 2014,
+      "test": 2015,
+      "cost": 0.0035,
+      "n_star": 1626.6,
+      "rho": 0.8133
+     },
+     {
+      "train": 2015,
+      "test": 2016,
+      "cost": 0.00475,
+      "n_star": 1469.1,
+      "rho": 0.7346
+     },
+     {
+      "train": 2016,
+      "test": 2017,
+      "cost": 0.00263,
+      "n_star": 1509.8,
+      "rho": 0.7549
+     },
+     {
+      "train": 2017,
+      "test": 2018,
+      "cost": 0.00414,
+      "n_star": 1569.0,
+      "rho": 0.7845
+     }
+    ],
+    "n_pairs": 6,
+    "n_censored": 0,
+    "rho_min": 0.7157,
+    "rho_median": 0.7697,
+    "rho_max": 0.8133
+   },
+   "2": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2014,
+      "cost": 0.00913,
+      "n_star": 1173.7,
+      "rho": 0.5869
+     },
+     {
+      "train": 2013,
+      "test": 2015,
+      "cost": 0.00541,
+      "n_star": 1453.5,
+      "rho": 0.7268
+     },
+     {
+      "train": 2014,
+      "test": 2016,
+      "cost": 0.00613,
+      "n_star": 1343.4,
+      "rho": 0.6717
+     },
+     {
+      "train": 2015,
+      "test": 2017,
+      "cost": 0.00368,
+      "n_star": 1349.5,
+      "rho": 0.6748
+     },
+     {
+      "train": 2016,
+      "test": 2018,
+      "cost": 0.0073,
+      "n_star": 1303.5,
+      "rho": 0.6517
+     }
+    ],
+    "n_pairs": 5,
+    "n_censored": 0,
+    "rho_min": 0.5869,
+    "rho_median": 0.6717,
+    "rho_max": 0.7268
+   },
+   "3": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2015,
+      "cost": 0.00641,
+      "n_star": 1370.3,
+      "rho": 0.6851
+     },
+     {
+      "train": 2013,
+      "test": 2016,
+      "cost": 0.01055,
+      "n_star": 1008.1,
+      "rho": 0.5041
+     },
+     {
+      "train": 2014,
+      "test": 2017,
+      "cost": 0.00647,
+      "n_star": 1000.3,
+      "rho": 0.5002
+     },
+     {
+      "train": 2015,
+      "test": 2018,
+      "cost": 0.00923,
+      "n_star": 1163.8,
+      "rho": 0.5819
+     }
+    ],
+    "n_pairs": 4,
+    "n_censored": 0,
+    "rho_min": 0.5002,
+    "rho_median": 0.5429999999999999,
+    "rho_max": 0.6851
+   },
+   "4": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2016,
+      "cost": 0.00985,
+      "n_star": 1054.8,
+      "rho": 0.5274
+     },
+     {
+      "train": 2013,
+      "test": 2017,
+      "cost": 0.00969,
+      "n_star": 789.0,
+      "rho": 0.3945
+     },
+     {
+      "train": 2014,
+      "test": 2018,
+      "cost": 0.01125,
+      "n_star": 1033.5,
+      "rho": 0.5167
+     }
+    ],
+    "n_pairs": 3,
+    "n_censored": 0,
+    "rho_min": 0.3945,
+    "rho_median": 0.5167,
+    "rho_max": 0.5274
+   },
+   "5": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2017,
+      "cost": 0.01318,
+      "n_star": 609.8,
+      "rho": 0.3049
+     },
+     {
+      "train": 2013,
+      "test": 2018,
+      "cost": 0.0173,
+      "n_star": 699.6,
+      "rho": 0.3498
+     }
+    ],
+    "n_pairs": 2,
+    "n_censored": 0,
+    "rho_min": 0.3049,
+    "rho_median": 0.32735000000000003,
+    "rho_max": 0.3498
+   },
+   "6": {
+    "pairs": [
+     {
+      "train": 2012,
+      "test": 2018,
+      "cost": 0.01761,
+      "n_star": 685.3,
+      "rho": 0.3427
+     }
+    ],
+    "n_pairs": 1,
+    "n_censored": 0,
+    "rho_min": 0.3427,
+    "rho_median": 0.3427,
+    "rho_max": 0.3427
+   }
+  }
+ }
+}

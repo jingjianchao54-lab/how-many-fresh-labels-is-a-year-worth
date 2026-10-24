@@ -1,0 +1,174 @@
+{
+ "dataset": "reddit",
+ "N": 2000,
+ "models": {
+  "M1": {
+   "1": {
+    "n_star_by_replicate": [
+     1754.0,
+     1845.5,
+     1816.5,
+     1868.4,
+     1829.6
+    ],
+    "rho_sd": 0.0215,
+    "n_star_min": 1754.0,
+    "n_star_max": 1868.4,
+    "n_censored": 0
+   },
+   "6": {
+    "n_star_by_replicate": [
+     1428.9,
+     1278.3,
+     1248.2,
+     1341.7,
+     1289.0
+    ],
+    "rho_sd": 0.0355,
+    "n_star_min": 1248.2,
+    "n_star_max": 1428.9,
+    "n_censored": 0
+   }
+  },
+  "M2": {
+   "1": {
+    "n_star_by_replicate": [
+     1755.7,
+     1782.4,
+     1761.4,
+     1762.1,
+     1776.5
+    ],
+    "rho_sd": 0.0056,
+    "n_star_min": 1755.7,
+    "n_star_max": 1782.4,
+    "n_censored": 0
+   },
+   "6": {
+    "n_star_by_replicate": [
+     1321.9,
+     1174.0,
+     1103.7,
+     1183.7,
+     1204.7
+    ],
+    "rho_sd": 0.0396,
+    "n_star_min": 1103.7,
+    "n_star_max": 1321.9,
+    "n_censored": 0
+   }
+  },
+  "M3": {
+   "1": {
+    "n_star_by_replicate": [
+     1816.0,
+     1808.0,
+     1704.0,
+     1706.3,
+     1812.0
+    ],
+    "rho_sd": 0.0293,
+    "n_star_min": 1704.0,
+    "n_star_max": 1816.0,
+    "n_censored": 0
+   },
+   "6": {
+    "n_star_by_replicate": [
+     1247.2,
+     1041.3,
+     1056.2,
+     1141.8,
+     1144.7
+    ],
+    "rho_sd": 0.0413,
+    "n_star_min": 1041.3,
+    "n_star_max": 1247.2,
+    "n_censored": 0
+   }
+  },
+  "M4": {
+   "1": {
+    "n_star_by_replicate": [
+     1647.9,
+     1760.9,
+     1708.6,
+     1557.5,
+     null
+    ],
+    "rho_sd": null,
+    "n_star_min": 1557.5,
+    "n_star_max": 1760.9,
+    "n_censored": 1
+   },
+   "6": {
+    "n_star_by_replicate": [
+     592.7,
+     705.0,
+     719.4,
+     773.4,
+     975.9
+    ],
+    "rho_sd": 0.0704,
+    "n_star_min": 592.7,
+    "n_star_max": 975.9,
+    "n_censored": 0
+   }
+  },
+  "M5F": {
+   "1": {
+    "n_star_by_replicate": [
+     1065.9,
+     1032.2,
+     1054.5,
+     1315.5,
+     1130.4
+    ],
+    "rho_sd": 0.0577,
+    "n_star_min": 1032.2,
+    "n_star_max": 1315.5,
+    "n_censored": 0
+   },
+   "6": {
+    "n_star_by_replicate": [
+     189.4,
+     293.6,
+     313.0,
+     141.7,
+     158.1
+    ],
+    "rho_sd": 0.0395,
+    "n_star_min": 141.7,
+    "n_star_max": 313.0,
+    "n_censored": 0
+   }
+  },
+  "M6": {
+   "1": {
+    "n_star_by_replicate": [
+     1918.7,
+     1370.0,
+     1361.5,
+     1482.6,
+     1639.5
+    ],
+    "rho_sd": 0.1163,
+    "n_star_min": 1361.5,
+    "n_star_max": 1918.7,
+    "n_censored": 0
+   },
+   "6": {
+    "n_star_by_replicate": [
+     763.3,
+     508.6,
+     831.2,
+     645.0,
+     749.6
+    ],
+    "rho_sd": 0.0629,
+    "n_star_min": 508.6,
+    "n_star_max": 831.2,
+    "n_censored": 0
+   }
+  }
+ }
+}

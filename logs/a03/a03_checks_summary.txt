@@ -1,0 +1,10 @@
+A-03 final checks - summary
+cwd: <server>/paper5/exp
+python: 3.10.12
+
+  6b   a03_runmap.txt                 PASS
+  6c   a03_delivery_check.txt         PASS
+  6d   a03_results_dump.txt           PASS
+  6e   a03_lock_times.txt             PASS
+
+  OVERALL: PASS

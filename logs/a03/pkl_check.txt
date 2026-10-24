@@ -1,0 +1,5 @@
+python 3.10.12
+stackexchange OK dict ['classes', 'cls', 'line', 'nat', 'part', 'size', 'tok', 'year', 'years']
+   size [500, 150, 300] | years [2015, 2016, 2017, 2018, 2019, 2020, 2021] | n_classes 10
+reddit OK dict ['classes', 'cls', 'line', 'nat', 'part', 'size', 'tok', 'tok_raw', 'year', 'years']
+   size [2000, 500, 1000] | years [2012, 2013, 2014, 2015, 2016, 2017, 2018] | n_classes 10

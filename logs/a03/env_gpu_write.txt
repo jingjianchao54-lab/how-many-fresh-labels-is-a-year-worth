@@ -1,0 +1,35 @@
+{
+ "python": "3.10.12",
+ "torch": "2.14.1+cu130",
+ "torch_cuda_build": "13.0",
+ "transformers": "5.19.0",
+ "cuda_available": true,
+ "cuda_device_count": 4,
+ "bf16_supported": true,
+ "gpus": [
+  {
+   "index": 0,
+   "name": "NVIDIA GeForce RTX 4090",
+   "vram_bytes": 25250627584
+  },
+  {
+   "index": 1,
+   "name": "NVIDIA GeForce RTX 4090",
+   "vram_bytes": 25250627584
+  },
+  {
+   "index": 2,
+   "name": "NVIDIA GeForce RTX 4090",
+   "vram_bytes": 25250627584
+  },
+  {
+   "index": 3,
+   "name": "NVIDIA GeForce RTX 4090",
+   "vram_bytes": 25250627584
+  }
+ ],
+ "nvidia_smi": "NVIDIA GeForce RTX 4090, 24564 MiB, 580.178.04\nNVIDIA GeForce RTX 4090, 24564 MiB, 580.178.04\nNVIDIA GeForce RTX 4090, 24564 MiB, 580.178.04\nNVIDIA GeForce RTX 4090, 24564 MiB, 580.178.04",
+ "cpu_cores": "128",
+ "platform": "Linux-5.15.0-198-generic-x86_64-with-glibc2.35",
+ "recorded": "2026-10-13 14:10:37 "
+}

@@ -1,0 +1,5 @@
+<server>/paper5/exp/src/evaluate.py:193: RuntimeWarning: Mean of empty slice
+  mix = np.nanmean(G[g], axis=0)
+M5F same-year 0.78908 | C(1) {'cost': 0.00281, 'ci': [0.00154, 0.00407], 'n_pairs': 6, 'replicate_sd': 0.00082} | C(gmax) {'cost': 0.01358, 'ci': [0.00971, 0.01744], 'n_pairs': 1, 'replicate_sd': 0.00222} | n*(1) 1108.8 [887.4, 1405.9] | n*(gmax) 212.6 [138.9, 378.9]
+M6 same-year 0.80427 | C(1) {'cost': 0.0039, 'ci': [0.0025, 0.00529], 'n_pairs': 6, 'replicate_sd': 0.00239} | C(gmax) {'cost': 0.01761, 'ci': [0.01375, 0.02156], 'n_pairs': 1, 'replicate_sd': 0.00424} | n*(1) 1531.6 [1406.0, 1673.2] | n*(gmax) 685.3 [536.6, 868.1]
+M1 same-year 0.72696 | C(1) {'cost': 0.00396, 'ci': [0.00215, 0.00594], 'n_pairs': 6, 'replicate_sd': 0.00091} | C(gmax) {'cost': 0.01694, 'ci': [0.01178, 0.02184], 'n_pairs': 1, 'replicate_sd': 0.00177} | n*(1) 1823.3 [1744.9, 1901.7] | n*(gmax) 1317.3 [1168.8, 1487.4]

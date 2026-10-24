@@ -1,0 +1,44 @@
+{
+ "sentences": [
+  "The weather is lovely today.",
+  "It's so sunny outside!",
+  "He drove to the stadium."
+ ],
+ "reference": [
+  [
+   1.0,
+   0.666,
+   0.1046
+  ],
+  [
+   0.666,
+   1.0,
+   0.1411
+  ],
+  [
+   0.1046,
+   0.1411,
+   1.0
+  ]
+ ],
+ "computed": [
+  [
+   1.0,
+   0.6659550070762634,
+   0.10458400100469589
+  ],
+  [
+   0.6659550070762634,
+   1.0,
+   0.1411450058221817
+  ],
+  [
+   0.10458400100469589,
+   0.1411450058221817,
+   1.0
+  ]
+ ],
+ "max_abs_diff_after_rounding_to_4dp": 8.583068811240935e-09,
+ "pass": true,
+ "source": "sentence-transformers documentation, quickstart example"
+}

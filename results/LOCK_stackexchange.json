@@ -1,0 +1,44 @@
+{
+ "dataset": "stackexchange",
+ "locked_at": "2026-10-09 22:36:59 +0800",
+ "selected": {
+  "M1": {
+   "25": 1,
+   "50": 1,
+   "100": 1,
+   "200": 10,
+   "500": 100
+  },
+  "M2": {
+   "25": 1,
+   "50": 0.1,
+   "100": 0.1,
+   "200": 1,
+   "500": 1
+  },
+  "M3": {
+   "25": 0.5,
+   "50": 0.5,
+   "100": 1.0,
+   "200": 1.0,
+   "500": 0.5
+  },
+  "M4": {
+   "25": 0.1,
+   "50": 0.1,
+   "100": 0.1,
+   "200": 0.1,
+   "500": 0.1
+  }
+ },
+ "sha256": {
+  "analysis_plan.md": "283db2c2fffdc81c320dd113edae05693043d07dbbe7413819b8aab1a093003e",
+  "AMENDMENTS.md": "553807a757092a9b3d1d42d9bf77fd6200df0f2e2994f9a01589c16eed3dbd81",
+  "work/sample_stackexchange.pkl": "ce16218f89ebd3f2896092755c4693cc94137485bf4ddc25258d419c2b4c7537",
+  "src/common.py": "9ccf5993a6bf7ae1a6552dc4557eef66c5b43acaf984e5f5fec4556806d4d4f4",
+  "src/features.py": "cb72021e4913c91171995de1406ce131acd902b4e19cfd9df25e3178de4a2512",
+  "src/run.py": "91f71dd3ffff16586c9a5819a72f812608c889a475b9c2b8412a07bd6cd01037",
+  "src/evaluate.py": "76f07bdeedcc921b4777d62fe93d1e7525f5197f8a43d8b02d1038e06e75cfaf",
+  "src/select_lock.py": "f97f7cdf5ad9a751c743637358232940961910a415918a14503de5f6fb7ce0ef"
+ }
+}

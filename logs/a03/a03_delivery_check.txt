@@ -1,0 +1,53 @@
+=== 1) run file counts vs the registered grid ===
+  reddit         select M5F  expected   147 got   147 OK
+  reddit         select M6   expected    98 got    98 OK
+  reddit         test   M5F  expected   455 got   455 OK
+  reddit         test   M6   expected   287 got   287 OK
+  stackexchange  select M5F  expected   105 got   105 OK
+  stackexchange  select M6   expected    70 got    70 OK
+  stackexchange  test   M5F  expected   315 got   315 OK
+  stackexchange  test   M6   expected   203 got   203 OK
+
+=== 2) ok=False count, per model ===
+  stackexchange  select M5F  files   105  ok=False 0
+  stackexchange  select M6   files    70  ok=False 0
+  stackexchange  test   M5F  files   315  ok=False 0
+  stackexchange  test   M6   files   203  ok=False 0
+  stackexchange  test   M1   files   350  ok=False 0
+  reddit         select M5F  files   147  ok=False 0
+  reddit         select M6   files    98  ok=False 0
+  reddit         test   M5F  files   455  ok=False 0
+  reddit         test   M6   files   287  ok=False 0
+  reddit         test   M1   files   490  ok=False 0
+
+=== 3) M6 epochs and seconds -> logs/m6_jobs.csv ===
+  wrote logs/m6_jobs.csv with 658 rows
+  stackexchange  select jobs   70  total    0.18 h  epochs min/med/max = 3/5/19
+  stackexchange  test   jobs  203  total    0.67 h  epochs min/med/max = 3/5/19
+  reddit         select jobs   98  total    0.61 h  epochs min/med/max = 3/3/19
+  reddit         test   jobs  287  total    2.68 h  epochs min/med/max = 3/3/19
+
+=== 4) results/ SHA-256, before vs after ===
+  manifest before: 33 files; now: 47 files
+  *** CHANGED *** 0  []
+  disappeared     0  []
+  new             14
+      + LOCK_reddit_M5F.json
+      + LOCK_reddit_M6.json
+      + LOCK_stackexchange_M5F.json
+      + LOCK_stackexchange_M6.json
+      + minilm_reference_check_transformers.json
+      + results_reddit_A03.json
+      + results_reddit_rep1_A03e3.json
+      + results_stackexchange_A03.json
+      + results_stackexchange_rep1_A03e3.json
+      + summary_reddit_A03.csv
+      + summary_reddit_rep1_A03e3.csv
+      + summary_stackexchange_A03.csv
+      + summary_stackexchange_rep1_A03e3.csv
+      + summary_stackexchange_verify.csv
+
+=== 5) verdict ===
+  count mismatches: none
+  existing results changed: none
+  >>> OVERALL: PASS (new files are expected)

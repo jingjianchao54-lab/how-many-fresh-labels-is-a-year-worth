@@ -1,0 +1,10 @@
+{
+ "sentences": [
+  "The weather is lovely today.",
+  "It's so sunny outside!",
+  "He drove to the stadium."
+ ],
+ "max_abs_diff_after_rounding_to_4dp": 8.583068811240935e-09,
+ "pass": true,
+ "implementation": "transformers"
+}
