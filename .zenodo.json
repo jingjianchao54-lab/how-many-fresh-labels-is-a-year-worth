@@ -1,0 +1,58 @@
+{
+  "title": "How Many Fresh Labels Is a Year Worth? Code, data indices and results",
+  "upload_type": "software",
+  "description": "Code, frozen configurations, sample indices, model predictions and result files for the study \"How Many Fresh Labels Is a Year Worth? Measuring the Exchange Rate between Label Recency and Label Quantity in Text Classification\" (submitted to Algorithms). Original post texts are not redistributed; the scripts and indices rebuild the samples from the public sources. See README.md for the steps that reproduce every table and figure.",
+  "creators": [
+    {
+      "name": "Jing, Jianzhao",
+      "affiliation": "Shandong Xiehe University; Asia Pacific University of Technology and Innovation",
+      "orcid": "0009-0006-8711-2639"
+    },
+    {
+      "name": "Lim, Chia Sien",
+      "affiliation": "Asia Pacific University of Technology and Innovation",
+      "orcid": "0000-0002-2257-0608"
+    },
+    {
+      "name": "Rana, Muhammad Ehsan",
+      "affiliation": "Asia Pacific University of Technology and Innovation",
+      "orcid": "0000-0001-5828-4796"
+    },
+    {
+      "name": "Wang, Chunhui",
+      "affiliation": "Shandong Xiehe University",
+      "orcid": "0009-0000-3257-3485"
+    },
+    {
+      "name": "Shang, Xianjuan",
+      "affiliation": "Shandong Xiehe University",
+      "orcid": "0009-0007-6434-7993"
+    },
+    {
+      "name": "Liu, Mei",
+      "affiliation": "Shandong Xiehe University",
+      "orcid": "0009-0003-5530-508X"
+    },
+    {
+      "name": "Wang, Mengxia",
+      "affiliation": "Shandong Xiehe University",
+      "orcid": "0009-0009-0171-1270"
+    }
+  ],
+  "keywords": [
+    "temporal drift",
+    "label recency",
+    "text classification",
+    "learning curves",
+    "data annotation"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/jingjianchao54-lab/how-many-fresh-labels-is-a-year-worth",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
