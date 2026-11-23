@@ -1,0 +1,260 @@
+{
+ "classes": [
+  "chess",
+  "Coffee",
+  "Cooking",
+  "gardening",
+  "history",
+  "investing",
+  "languagelearning",
+  "philosophy",
+  "running",
+  "woodworking"
+ ],
+ "models": {
+  "M1": {
+   "1": {
+    "total_extra_errors_per_test_year": 41.13,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "philosophy"
+      ],
+      "extra_errors_per_test_year": 12.1,
+      "share_of_net_extra": 0.173
+     },
+     {
+      "pair": [
+       "history",
+       "investing"
+      ],
+      "extra_errors_per_test_year": 10.8,
+      "share_of_net_extra": 0.155
+     },
+     {
+      "pair": [
+       "Coffee",
+       "Cooking"
+      ],
+      "extra_errors_per_test_year": 7.07,
+      "share_of_net_extra": 0.101
+     },
+     {
+      "pair": [
+       "chess",
+       "history"
+      ],
+      "extra_errors_per_test_year": 4.37,
+      "share_of_net_extra": 0.063
+     },
+     {
+      "pair": [
+       "chess",
+       "running"
+      ],
+      "extra_errors_per_test_year": 3.17,
+      "share_of_net_extra": 0.045
+     }
+    ],
+    "top3_share": 0.429,
+    "recall_loss_points_by_class": {
+     "chess": 0.603,
+     "Coffee": -0.017,
+     "Cooking": 0.23,
+     "gardening": 0.1,
+     "history": 0.327,
+     "investing": 1.057,
+     "languagelearning": 0.253,
+     "philosophy": 1.38,
+     "running": -0.123,
+     "woodworking": 0.303
+    },
+    "n_pairs_increase": 30,
+    "n_pairs_total": 45
+   },
+   "6": {
+    "total_extra_errors_per_test_year": 168.0,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "investing"
+      ],
+      "extra_errors_per_test_year": 39.4,
+      "share_of_net_extra": 0.137
+     },
+     {
+      "pair": [
+       "history",
+       "philosophy"
+      ],
+      "extra_errors_per_test_year": 34.0,
+      "share_of_net_extra": 0.118
+     },
+     {
+      "pair": [
+       "Coffee",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 19.6,
+      "share_of_net_extra": 0.068
+     },
+     {
+      "pair": [
+       "Cooking",
+       "running"
+      ],
+      "extra_errors_per_test_year": 16.4,
+      "share_of_net_extra": 0.057
+     },
+     {
+      "pair": [
+       "chess",
+       "history"
+      ],
+      "extra_errors_per_test_year": 16.2,
+      "share_of_net_extra": 0.056
+     }
+    ],
+    "top3_share": 0.322,
+    "recall_loss_points_by_class": {
+     "chess": 3.62,
+     "Coffee": 2.66,
+     "Cooking": -0.58,
+     "gardening": 2.56,
+     "history": -0.02,
+     "investing": 3.24,
+     "languagelearning": -0.34,
+     "philosophy": 5.78,
+     "running": -2.2,
+     "woodworking": 2.08
+    },
+    "n_pairs_increase": 31,
+    "n_pairs_total": 45
+   }
+  },
+  "M6": {
+   "1": {
+    "total_extra_errors_per_test_year": 39.77,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "philosophy"
+      ],
+      "extra_errors_per_test_year": 6.13,
+      "share_of_net_extra": 0.111
+     },
+     {
+      "pair": [
+       "history",
+       "languagelearning"
+      ],
+      "extra_errors_per_test_year": 5.73,
+      "share_of_net_extra": 0.103
+     },
+     {
+      "pair": [
+       "Coffee",
+       "Cooking"
+      ],
+      "extra_errors_per_test_year": 3.93,
+      "share_of_net_extra": 0.071
+     },
+     {
+      "pair": [
+       "investing",
+       "philosophy"
+      ],
+      "extra_errors_per_test_year": 3.2,
+      "share_of_net_extra": 0.058
+     },
+     {
+      "pair": [
+       "Coffee",
+       "history"
+      ],
+      "extra_errors_per_test_year": 2.93,
+      "share_of_net_extra": 0.053
+     }
+    ],
+    "top3_share": 0.285,
+    "recall_loss_points_by_class": {
+     "chess": 0.723,
+     "Coffee": -0.3,
+     "Cooking": 0.297,
+     "gardening": 0.16,
+     "history": 0.143,
+     "investing": 0.32,
+     "languagelearning": 0.21,
+     "philosophy": 1.65,
+     "running": -0.02,
+     "woodworking": 0.793
+    },
+    "n_pairs_increase": 30,
+    "n_pairs_total": 45
+   },
+   "6": {
+    "total_extra_errors_per_test_year": 175.8,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "philosophy"
+      ],
+      "extra_errors_per_test_year": 26.6,
+      "share_of_net_extra": 0.109
+     },
+     {
+      "pair": [
+       "history",
+       "investing"
+      ],
+      "extra_errors_per_test_year": 24.2,
+      "share_of_net_extra": 0.1
+     },
+     {
+      "pair": [
+       "history",
+       "running"
+      ],
+      "extra_errors_per_test_year": 14.4,
+      "share_of_net_extra": 0.059
+     },
+     {
+      "pair": [
+       "Coffee",
+       "history"
+      ],
+      "extra_errors_per_test_year": 14.0,
+      "share_of_net_extra": 0.058
+     },
+     {
+      "pair": [
+       "Coffee",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 13.8,
+      "share_of_net_extra": 0.057
+     }
+    ],
+    "top3_share": 0.268,
+    "recall_loss_points_by_class": {
+     "chess": 2.0,
+     "Coffee": 1.24,
+     "Cooking": 0.08,
+     "gardening": 3.14,
+     "history": 1.08,
+     "investing": 1.18,
+     "languagelearning": 0.1,
+     "philosophy": 6.2,
+     "running": -0.6,
+     "woodworking": 3.16
+    },
+    "n_pairs_increase": 33,
+    "n_pairs_total": 45
+   }
+  }
+ }
+}

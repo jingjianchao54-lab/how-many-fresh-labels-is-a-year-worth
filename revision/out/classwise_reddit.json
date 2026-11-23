@@ -1,0 +1,709 @@
+{
+ "classes": [
+  "chess",
+  "Coffee",
+  "Cooking",
+  "gardening",
+  "history",
+  "investing",
+  "languagelearning",
+  "philosophy",
+  "running",
+  "woodworking"
+ ],
+ "N": 2000,
+ "models": {
+  "M1": {
+   "1": [
+    {
+     "class": "chess",
+     "same_year_f1": 0.76465,
+     "cost": 0.00576,
+     "cost_ci": [
+      0.00116,
+      0.01059
+     ],
+     "n_star": 1696.7,
+     "n_star_ci": [
+      1494.8,
+      1930.5
+     ],
+     "rho": 0.8483,
+     "top_slope_points": 3.501,
+     "share_censored_high": 0.0075
+    },
+    {
+     "class": "Coffee",
+     "same_year_f1": 0.73679,
+     "cost": 0.00477,
+     "cost_ci": [
+      -0.00058,
+      0.01022
+     ],
+     "n_star": 1805.9,
+     "n_star_ci": [
+      1612.0,
+      ">2000"
+     ],
+     "rho": 0.903,
+     "top_slope_points": 4.673,
+     "share_censored_high": 0.0375
+    },
+    {
+     "class": "Cooking",
+     "same_year_f1": 0.73464,
+     "cost": 0.00237,
+     "cost_ci": [
+      -0.00287,
+      0.00746
+     ],
+     "n_star": 1902.4,
+     "n_star_ci": [
+      1717.7,
+      ">2000"
+     ],
+     "rho": 0.9512,
+     "top_slope_points": 4.733,
+     "share_censored_high": 0.177
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.74128,
+     "cost": -0.00287,
+     "cost_ci": [
+      -0.00812,
+      0.00253
+     ],
+     "n_star": ">2000",
+     "n_star_ci": [
+      1891.3,
+      ">2000"
+     ],
+     "rho": null,
+     "top_slope_points": 4.294,
+     "share_censored_high": 0.863
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.62506,
+     "cost": 0.01087,
+     "cost_ci": [
+      0.00571,
+      0.01619
+     ],
+     "n_star": 1574.9,
+     "n_star_ci": [
+      1408.5,
+      1756.3
+     ],
+     "rho": 0.7874,
+     "top_slope_points": 4.55,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "investing",
+     "same_year_f1": 0.74104,
+     "cost": 0.00656,
+     "cost_ci": [
+      0.00158,
+      0.01148
+     ],
+     "n_star": 1731.1,
+     "n_star_ci": [
+      1560.7,
+      1928.9
+     ],
+     "rho": 0.8656,
+     "top_slope_points": 4.546,
+     "share_censored_high": 0.0035
+    },
+    {
+     "class": "languagelearning",
+     "same_year_f1": 0.78906,
+     "cost": 1e-05,
+     "cost_ci": [
+      -0.00405,
+      0.0043
+     ],
+     "n_star": 1999.4,
+     "n_star_ci": [
+      1735.1,
+      ">2000"
+     ],
+     "rho": 0.9997,
+     "top_slope_points": 2.881,
+     "share_censored_high": 0.51
+    },
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.68154,
+     "cost": 0.0057,
+     "cost_ci": [
+      0.00051,
+      0.01085
+     ],
+     "n_star": 1755.6,
+     "n_star_ci": [
+      1579.7,
+      1975.8
+     ],
+     "rho": 0.8778,
+     "top_slope_points": 4.372,
+     "share_censored_high": 0.015
+    },
+    {
+     "class": "running",
+     "same_year_f1": 0.77083,
+     "cost": 0.00389,
+     "cost_ci": [
+      -0.00077,
+      0.00829
+     ],
+     "n_star": 1817.4,
+     "n_star_ci": [
+      1637.8,
+      ">2000"
+     ],
+     "rho": 0.9087,
+     "top_slope_points": 4.059,
+     "share_censored_high": 0.049
+    },
+    {
+     "class": "woodworking",
+     "same_year_f1": 0.68714,
+     "cost": 0.00259,
+     "cost_ci": [
+      -0.00311,
+      0.00822
+     ],
+     "n_star": 1903.9,
+     "n_star_ci": [
+      1721.4,
+      ">2000"
+     ],
+     "rho": 0.9519,
+     "top_slope_points": 5.261,
+     "share_censored_high": 0.181
+    }
+   ],
+   "6": [
+    {
+     "class": "chess",
+     "same_year_f1": 0.75486,
+     "cost": 0.02029,
+     "cost_ci": [
+      0.0075,
+      0.0325
+     ],
+     "n_star": 989.8,
+     "n_star_ci": [
+      813.7,
+      1484.1
+     ],
+     "rho": 0.4949,
+     "top_slope_points": 2.845,
+     "share_censored_high": 0.0005
+    },
+    {
+     "class": "Coffee",
+     "same_year_f1": 0.75814,
+     "cost": 0.03961,
+     "cost_ci": [
+      0.02548,
+      0.05341
+     ],
+     "n_star": 1052.7,
+     "n_star_ci": [
+      865.9,
+      1295.6
+     ],
+     "rho": 0.5263,
+     "top_slope_points": 6.172,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "Cooking",
+     "same_year_f1": 0.72911,
+     "cost": 0.01275,
+     "cost_ci": [
+      -0.00087,
+      0.0255
+     ],
+     "n_star": 1539.0,
+     "n_star_ci": [
+      1188.0,
+      ">2000"
+     ],
+     "rho": 0.7695,
+     "top_slope_points": 4.867,
+     "share_censored_high": 0.0305
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.72837,
+     "cost": 0.00373,
+     "cost_ci": [
+      -0.01034,
+      0.0175
+     ],
+     "n_star": 1820.5,
+     "n_star_ci": [
+      1324.3,
+      ">2000"
+     ],
+     "rho": 0.9103,
+     "top_slope_points": 3.968,
+     "share_censored_high": 0.2945
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.61017,
+     "cost": 0.03411,
+     "cost_ci": [
+      0.01816,
+      0.04831
+     ],
+     "n_star": 922.0,
+     "n_star_ci": [
+      680.3,
+      1285.4
+     ],
+     "rho": 0.461,
+     "top_slope_points": 4.41,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "investing",
+     "same_year_f1": 0.72996,
+     "cost": 0.02589,
+     "cost_ci": [
+      0.01213,
+      0.04079
+     ],
+     "n_star": 1131.1,
+     "n_star_ci": [
+      879.1,
+      1509.7
+     ],
+     "rho": 0.5656,
+     "top_slope_points": 4.542,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "languagelearning",
+     "same_year_f1": 0.79001,
+     "cost": 0.01536,
+     "cost_ci": [
+      0.00395,
+      0.02672
+     ],
+     "n_star": 1075.7,
+     "n_star_ci": [
+      764.3,
+      1673.9
+     ],
+     "rho": 0.5378,
+     "top_slope_points": 2.476,
+     "share_censored_high": 0.0085
+    },
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.64659,
+     "cost": 0.01581,
+     "cost_ci": [
+      0.00185,
+      0.03028
+     ],
+     "n_star": 1340.3,
+     "n_star_ci": [
+      960.5,
+      1901.8
+     ],
+     "rho": 0.6702,
+     "top_slope_points": 3.95,
+     "share_censored_high": 0.011
+    },
+    {
+     "class": "running",
+     "same_year_f1": 0.7754,
+     "cost": 0.01285,
+     "cost_ci": [
+      0.00099,
+      0.02529
+     ],
+     "n_star": 1362.0,
+     "n_star_ci": [
+      970.0,
+      1944.1
+     ],
+     "rho": 0.681,
+     "top_slope_points": 3.344,
+     "share_censored_high": 0.0175
+    },
+    {
+     "class": "woodworking",
+     "same_year_f1": 0.67629,
+     "cost": -0.01102,
+     "cost_ci": [
+      -0.02526,
+      0.00412
+     ],
+     "n_star": ">2000",
+     "n_star_ci": [
+      1820.9,
+      ">2000"
+     ],
+     "rho": null,
+     "top_slope_points": 3.99,
+     "share_censored_high": 0.9245
+    }
+   ]
+  },
+  "M6": {
+   "1": [
+    {
+     "class": "chess",
+     "same_year_f1": 0.8232,
+     "cost": 0.00437,
+     "cost_ci": [
+      0.00081,
+      0.00771
+     ],
+     "n_star": 1605.6,
+     "n_star_ci": [
+      1359.2,
+      1917.3
+     ],
+     "rho": 0.8028,
+     "top_slope_points": 1.99,
+     "share_censored_high": 0.007
+    },
+    {
+     "class": "Coffee",
+     "same_year_f1": 0.79437,
+     "cost": 0.00477,
+     "cost_ci": [
+      0.00105,
+      0.00838
+     ],
+     "n_star": 1617.4,
+     "n_star_ci": [
+      1396.5,
+      1903.4
+     ],
+     "rho": 0.8087,
+     "top_slope_points": 2.249,
+     "share_censored_high": 0.006
+    },
+    {
+     "class": "Cooking",
+     "same_year_f1": 0.80467,
+     "cost": 0.00394,
+     "cost_ci": [
+      0.00037,
+      0.00745
+     ],
+     "n_star": 1106.1,
+     "n_star_ci": [
+      800.4,
+      1857.7
+     ],
+     "rho": 0.553,
+     "top_slope_points": 0.665,
+     "share_censored_high": 0.0135
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.82306,
+     "cost": -5e-05,
+     "cost_ci": [
+      -0.00353,
+      0.00333
+     ],
+     "n_star": ">2000",
+     "n_star_ci": [
+      1604.9,
+      ">2000"
+     ],
+     "rho": null,
+     "top_slope_points": 1.399,
+     "share_censored_high": 0.5045
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.73381,
+     "cost": 0.00943,
+     "cost_ci": [
+      0.00506,
+      0.01344
+     ],
+     "n_star": 957.5,
+     "n_star_ci": [
+      782.0,
+      1253.6
+     ],
+     "rho": 0.4788,
+     "top_slope_points": 1.253,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "investing",
+     "same_year_f1": 0.82919,
+     "cost": 0.00541,
+     "cost_ci": [
+      0.0019,
+      0.00889
+     ],
+     "n_star": 1385.5,
+     "n_star_ci": [
+      1125.3,
+      1733.6
+     ],
+     "rho": 0.6928,
+     "top_slope_points": 1.475,
+     "share_censored_high": 0.0015
+    },
+    {
+     "class": "languagelearning",
+     "same_year_f1": 0.84792,
+     "cost": 0.0009,
+     "cost_ci": [
+      -0.00245,
+      0.00403
+     ],
+     "n_star": 1809.7,
+     "n_star_ci": [
+      1311.0,
+      ">2000"
+     ],
+     "rho": 0.9049,
+     "top_slope_points": 0.904,
+     "share_censored_high": 0.282
+    },
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.77934,
+     "cost": 0.00829,
+     "cost_ci": [
+      0.00423,
+      0.01243
+     ],
+     "n_star": 1241.4,
+     "n_star_ci": [
+      968.5,
+      1542.4
+     ],
+     "rho": 0.6207,
+     "top_slope_points": 1.739,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "running",
+     "same_year_f1": 0.83645,
+     "cost": -0.00034,
+     "cost_ci": [
+      -0.00377,
+      0.00294
+     ],
+     "n_star": ">2000",
+     "n_star_ci": [
+      1477.6,
+      ">2000"
+     ],
+     "rho": null,
+     "top_slope_points": 0.865,
+     "share_censored_high": 0.589
+    },
+    {
+     "class": "woodworking",
+     "same_year_f1": 0.7788,
+     "cost": 0.00228,
+     "cost_ci": [
+      -0.00147,
+      0.0061
+     ],
+     "n_star": 1792.6,
+     "n_star_ci": [
+      1523.1,
+      ">2000"
+     ],
+     "rho": 0.8963,
+     "top_slope_points": 2.08,
+     "share_censored_high": 0.1255
+    }
+   ],
+   "6": [
+    {
+     "class": "chess",
+     "same_year_f1": 0.82735,
+     "cost": 0.01791,
+     "cost_ci": [
+      0.00822,
+      0.02718
+     ],
+     "n_star": 1068.7,
+     "n_star_ci": [
+      606.2,
+      1446.7
+     ],
+     "rho": 0.5344,
+     "top_slope_points": 2.857,
+     "share_censored_high": 0.0005
+    },
+    {
+     "class": "Coffee",
+     "same_year_f1": 0.80842,
+     "cost": 0.03453,
+     "cost_ci": [
+      0.02411,
+      0.04518
+     ],
+     "n_star": 621.4,
+     "n_star_ci": [
+      454.9,
+      855.0
+     ],
+     "rho": 0.3107,
+     "top_slope_points": 2.866,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "Cooking",
+     "same_year_f1": 0.80475,
+     "cost": 0.01398,
+     "cost_ci": [
+      0.0049,
+      0.02309
+     ],
+     "n_star": 631.1,
+     "n_star_ci": [
+      178.3,
+      1256.3
+     ],
+     "rho": 0.3156,
+     "top_slope_points": 1.22,
+     "share_censored_high": 0.001
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.8238,
+     "cost": 0.01142,
+     "cost_ci": [
+      0.00179,
+      0.0213
+     ],
+     "n_star": 875.0,
+     "n_star_ci": [
+      535.2,
+      1697.8
+     ],
+     "rho": 0.4375,
+     "top_slope_points": 1.268,
+     "share_censored_high": 0.0095
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.72138,
+     "cost": 0.03903,
+     "cost_ci": [
+      0.0265,
+      0.05137
+     ],
+     "n_star": 295.9,
+     "n_star_ci": [
+      191.7,
+      443.6
+     ],
+     "rho": 0.1479,
+     "top_slope_points": 1.125,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "investing",
+     "same_year_f1": 0.81602,
+     "cost": 0.01678,
+     "cost_ci": [
+      0.00672,
+      0.02651
+     ],
+     "n_star": 470.8,
+     "n_star_ci": [
+      268.7,
+      1037.3
+     ],
+     "rho": 0.2354,
+     "top_slope_points": 1.172,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "languagelearning",
+     "same_year_f1": 0.85465,
+     "cost": 0.00425,
+     "cost_ci": [
+      -0.00469,
+      0.01278
+     ],
+     "n_star": 1491.1,
+     "n_star_ci": [
+      261.4,
+      ">2000"
+     ],
+     "rho": 0.7455,
+     "top_slope_points": 1.446,
+     "share_censored_high": 0.1695
+    },
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.75226,
+     "cost": 0.01484,
+     "cost_ci": [
+      0.00307,
+      0.02724
+     ],
+     "n_star": 432.8,
+     "n_star_ci": [
+      245.7,
+      1195.3
+     ],
+     "rho": 0.2164,
+     "top_slope_points": 0.86,
+     "share_censored_high": 0.005
+    },
+    {
+     "class": "running",
+     "same_year_f1": 0.84676,
+     "cost": 0.01519,
+     "cost_ci": [
+      0.00711,
+      0.02339
+     ],
+     "n_star": 773.2,
+     "n_star_ci": [
+      426.6,
+      1276.1
+     ],
+     "rho": 0.3866,
+     "top_slope_points": 1.779,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "woodworking",
+     "same_year_f1": 0.77449,
+     "cost": 0.00821,
+     "cost_ci": [
+      -0.0022,
+      0.019
+     ],
+     "n_star": 1429.7,
+     "n_star_ci": [
+      950.6,
+      ">2000"
+     ],
+     "rho": 0.7148,
+     "top_slope_points": 2.447,
+     "share_censored_high": 0.068
+    }
+   ]
+  }
+ }
+}

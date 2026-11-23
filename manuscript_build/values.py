@@ -7,7 +7,7 @@ ratios to 2 decimals; correlations to 2 decimals.
 import json
 from pathlib import Path
 
-RES = Path(__file__).resolve().parents[1] / "exp" / "results"
+RES = Path(__file__).resolve().parents[1] / "results"
 DS = {"rd": "reddit", "se": "stackexchange"}
 MODELS = ["M1", "M2", "M3", "M4", "M5", "M5F", "M6"]   # M5F and M6: amendment A-03 (added analysis)
 

@@ -1,0 +1,709 @@
+{
+ "classes": [
+  "philosophy",
+  "photo",
+  "music",
+  "history",
+  "cooking",
+  "movies",
+  "bicycles",
+  "boardgames",
+  "gardening",
+  "chess"
+ ],
+ "N": 500,
+ "models": {
+  "M1": {
+   "1": [
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.74188,
+     "cost": -0.00065,
+     "cost_ci": [
+      -0.01018,
+      0.00813
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      432.2,
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": 5.466,
+     "share_censored_high": 0.567
+    },
+    {
+     "class": "photo",
+     "same_year_f1": 0.77276,
+     "cost": 0.0023,
+     "cost_ci": [
+      -0.00655,
+      0.01092
+     ],
+     "n_star": 478.2,
+     "n_star_ci": [
+      409.3,
+      ">500"
+     ],
+     "rho": 0.9564,
+     "top_slope_points": 5.157,
+     "share_censored_high": 0.307
+    },
+    {
+     "class": "music",
+     "same_year_f1": 0.81148,
+     "cost": 0.00257,
+     "cost_ci": [
+      -0.0063,
+      0.01139
+     ],
+     "n_star": 478.8,
+     "n_star_ci": [
+      415.2,
+      ">500"
+     ],
+     "rho": 0.9576,
+     "top_slope_points": 5.941,
+     "share_censored_high": 0.2805
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.65065,
+     "cost": 0.01254,
+     "cost_ci": [
+      0.00185,
+      0.02259
+     ],
+     "n_star": 406.0,
+     "n_star_ci": [
+      349.5,
+      484.4
+     ],
+     "rho": 0.812,
+     "top_slope_points": 6.022,
+     "share_censored_high": 0.0105
+    },
+    {
+     "class": "cooking",
+     "same_year_f1": 0.78929,
+     "cost": 0.00026,
+     "cost_ci": [
+      -0.00887,
+      0.00885
+     ],
+     "n_star": 497.9,
+     "n_star_ci": [
+      434.4,
+      ">500"
+     ],
+     "rho": 0.9959,
+     "top_slope_points": 6.199,
+     "share_censored_high": 0.5015
+    },
+    {
+     "class": "movies",
+     "same_year_f1": 0.69249,
+     "cost": 0.00992,
+     "cost_ci": [
+      -0.00116,
+      0.01988
+     ],
+     "n_star": 415.0,
+     "n_star_ci": [
+      346.8,
+      ">500"
+     ],
+     "rho": 0.8301,
+     "top_slope_points": 5.328,
+     "share_censored_high": 0.04
+    },
+    {
+     "class": "bicycles",
+     "same_year_f1": 0.80427,
+     "cost": -3e-05,
+     "cost_ci": [
+      -0.00856,
+      0.00835
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      434.4,
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": 5.749,
+     "share_censored_high": 0.508
+    },
+    {
+     "class": "boardgames",
+     "same_year_f1": 0.78033,
+     "cost": 0.00989,
+     "cost_ci": [
+      0.00109,
+      0.01903
+     ],
+     "n_star": 409.1,
+     "n_star_ci": [
+      344.4,
+      488.6
+     ],
+     "rho": 0.8182,
+     "top_slope_points": 4.928,
+     "share_censored_high": 0.0135
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.82917,
+     "cost": 0.01381,
+     "cost_ci": [
+      0.00594,
+      0.02157
+     ],
+     "n_star": 374.1,
+     "n_star_ci": [
+      321.4,
+      439.5
+     ],
+     "rho": 0.7481,
+     "top_slope_points": 4.759,
+     "share_censored_high": 0.0005
+    },
+    {
+     "class": "chess",
+     "same_year_f1": 0.81668,
+     "cost": 0.00549,
+     "cost_ci": [
+      -0.00209,
+      0.01365
+     ],
+     "n_star": 424.7,
+     "n_star_ci": [
+      337.8,
+      ">500"
+     ],
+     "rho": 0.8494,
+     "top_slope_points": 3.362,
+     "share_censored_high": 0.082
+    }
+   ],
+   "6": [
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.7402,
+     "cost": 0.0015,
+     "cost_ci": [
+      -0.01913,
+      0.02121
+     ],
+     "n_star": 480.0,
+     "n_star_ci": [
+      295.9,
+      ">500"
+     ],
+     "rho": 0.9601,
+     "top_slope_points": 3.671,
+     "share_censored_high": 0.4675
+    },
+    {
+     "class": "photo",
+     "same_year_f1": 0.76698,
+     "cost": 0.01292,
+     "cost_ci": [
+      -0.00771,
+      0.03363
+     ],
+     "n_star": 371.5,
+     "n_star_ci": [
+      236.2,
+      ">500"
+     ],
+     "rho": 0.7429,
+     "top_slope_points": 4.346,
+     "share_censored_high": 0.109
+    },
+    {
+     "class": "music",
+     "same_year_f1": 0.78613,
+     "cost": -0.0054,
+     "cost_ci": [
+      -0.02656,
+      0.01563
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      381.6,
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": 5.565,
+     "share_censored_high": 0.6915
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.65006,
+     "cost": 0.0454,
+     "cost_ci": [
+      0.01646,
+      0.07442
+     ],
+     "n_star": 246.5,
+     "n_star_ci": [
+      171.9,
+      378.0
+     ],
+     "rho": 0.4931,
+     "top_slope_points": 6.421,
+     "share_censored_high": 0.001
+    },
+    {
+     "class": "cooking",
+     "same_year_f1": 0.75707,
+     "cost": 0.00645,
+     "cost_ci": [
+      -0.01424,
+      0.02738
+     ],
+     "n_star": 450.1,
+     "n_star_ci": [
+      327.1,
+      ">500"
+     ],
+     "rho": 0.9003,
+     "top_slope_points": 6.138,
+     "share_censored_high": 0.271
+    },
+    {
+     "class": "movies",
+     "same_year_f1": 0.7097,
+     "cost": 0.03537,
+     "cost_ci": [
+      0.00679,
+      0.06415
+     ],
+     "n_star": 274.1,
+     "n_star_ci": [
+      182.7,
+      440.7
+     ],
+     "rho": 0.5483,
+     "top_slope_points": 5.886,
+     "share_censored_high": 0.0085
+    },
+    {
+     "class": "bicycles",
+     "same_year_f1": 0.76911,
+     "cost": 0.01192,
+     "cost_ci": [
+      -0.01157,
+      0.03445
+     ],
+     "n_star": 411.5,
+     "n_star_ci": [
+      293.7,
+      ">500"
+     ],
+     "rho": 0.8231,
+     "top_slope_points": 6.123,
+     "share_censored_high": 0.151
+    },
+    {
+     "class": "boardgames",
+     "same_year_f1": 0.81623,
+     "cost": 0.03419,
+     "cost_ci": [
+      0.01199,
+      0.05686
+     ],
+     "n_star": 302.4,
+     "n_star_ci": [
+      218.6,
+      410.2
+     ],
+     "rho": 0.6048,
+     "top_slope_points": 6.798,
+     "share_censored_high": 0.0035
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.84163,
+     "cost": 0.04786,
+     "cost_ci": [
+      0.02638,
+      0.06904
+     ],
+     "n_star": 194.6,
+     "n_star_ci": [
+      143.4,
+      289.1
+     ],
+     "rho": 0.3893,
+     "top_slope_points": 5.037,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "chess",
+     "same_year_f1": 0.82334,
+     "cost": 0.00318,
+     "cost_ci": [
+      -0.01766,
+      0.02279
+     ],
+     "n_star": 453.4,
+     "n_star_ci": [
+      256.5,
+      ">500"
+     ],
+     "rho": 0.9068,
+     "top_slope_points": 3.252,
+     "share_censored_high": 0.393
+    }
+   ]
+  },
+  "M6": {
+   "1": [
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.85765,
+     "cost": 0.00542,
+     "cost_ci": [
+      0.00037,
+      0.01054
+     ],
+     "n_star": 385.9,
+     "n_star_ci": [
+      308.7,
+      490.1
+     ],
+     "rho": 0.7719,
+     "top_slope_points": 2.095,
+     "share_censored_high": 0.0195
+    },
+    {
+     "class": "photo",
+     "same_year_f1": 0.85729,
+     "cost": 0.00349,
+     "cost_ci": [
+      -0.00232,
+      0.00927
+     ],
+     "n_star": 367.9,
+     "n_star_ci": [
+      226.5,
+      ">500"
+     ],
+     "rho": 0.7359,
+     "top_slope_points": 1.138,
+     "share_censored_high": 0.1195
+    },
+    {
+     "class": "music",
+     "same_year_f1": 0.89742,
+     "cost": 9e-05,
+     "cost_ci": [
+      -0.00458,
+      0.00499
+     ],
+     "n_star": 475.8,
+     "n_star_ci": [
+      130.2,
+      ">500"
+     ],
+     "rho": 0.9517,
+     "top_slope_points": 0.187,
+     "share_censored_high": 0.4435
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.81117,
+     "cost": 0.01716,
+     "cost_ci": [
+      0.01075,
+      0.0239
+     ],
+     "n_star": 296.1,
+     "n_star_ci": [
+      245.4,
+      355.1
+     ],
+     "rho": 0.5922,
+     "top_slope_points": 3.276,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "cooking",
+     "same_year_f1": 0.88581,
+     "cost": -0.00494,
+     "cost_ci": [
+      -0.00956,
+      -0.00042
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      ">500",
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": 0.23,
+     "share_censored_high": 0.9835
+    },
+    {
+     "class": "movies",
+     "same_year_f1": 0.81717,
+     "cost": 0.01145,
+     "cost_ci": [
+      0.00482,
+      0.01805
+     ],
+     "n_star": 308.5,
+     "n_star_ci": [
+      238.0,
+      402.0
+     ],
+     "rho": 0.617,
+     "top_slope_points": 2.37,
+     "share_censored_high": 0.0005
+    },
+    {
+     "class": "bicycles",
+     "same_year_f1": 0.88151,
+     "cost": 0.00107,
+     "cost_ci": [
+      -0.00385,
+      0.00594
+     ],
+     "n_star": 474.3,
+     "n_star_ci": [
+      382.6,
+      ">500"
+     ],
+     "rho": 0.9487,
+     "top_slope_points": 2.031,
+     "share_censored_high": 0.318
+    },
+    {
+     "class": "boardgames",
+     "same_year_f1": 0.83041,
+     "cost": 0.00144,
+     "cost_ci": [
+      -0.00475,
+      0.00774
+     ],
+     "n_star": 477.5,
+     "n_star_ci": [
+      397.0,
+      ">500"
+     ],
+     "rho": 0.955,
+     "top_slope_points": 3.141,
+     "share_censored_high": 0.323
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.90593,
+     "cost": 0.00325,
+     "cost_ci": [
+      -0.00133,
+      0.00766
+     ],
+     "n_star": 236.0,
+     "n_star_ci": [
+      97.9,
+      ">500"
+     ],
+     "rho": 0.472,
+     "top_slope_points": 0.433,
+     "share_censored_high": 0.0805
+    },
+    {
+     "class": "chess",
+     "same_year_f1": 0.85172,
+     "cost": 0.0072,
+     "cost_ci": [
+      0.00186,
+      0.01283
+     ],
+     "n_star": 373.3,
+     "n_star_ci": [
+      299.8,
+      461.0
+     ],
+     "rho": 0.7466,
+     "top_slope_points": 2.463,
+     "share_censored_high": 0.0025
+    }
+   ],
+   "6": [
+    {
+     "class": "philosophy",
+     "same_year_f1": 0.857,
+     "cost": 0.00548,
+     "cost_ci": [
+      -0.00824,
+      0.01934
+     ],
+     "n_star": 381.4,
+     "n_star_ci": [
+      85.5,
+      ">500"
+     ],
+     "rho": 0.7628,
+     "top_slope_points": 2.022,
+     "share_censored_high": 0.2355
+    },
+    {
+     "class": "photo",
+     "same_year_f1": 0.86991,
+     "cost": 0.01714,
+     "cost_ci": [
+      0.00189,
+      0.03271
+     ],
+     "n_star": 152.1,
+     "n_star_ci": [
+      49.6,
+      412.1
+     ],
+     "rho": 0.3041,
+     "top_slope_points": 1.448,
+     "share_censored_high": 0.012
+    },
+    {
+     "class": "music",
+     "same_year_f1": 0.86958,
+     "cost": -0.01026,
+     "cost_ci": [
+      -0.02284,
+      0.00351
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      58.4,
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": -0.518,
+     "share_censored_high": 0.7725
+    },
+    {
+     "class": "history",
+     "same_year_f1": 0.81463,
+     "cost": 0.03528,
+     "cost_ci": [
+      0.01829,
+      0.05237
+     ],
+     "n_star": 252.2,
+     "n_star_ci": [
+      127.9,
+      336.4
+     ],
+     "rho": 0.5044,
+     "top_slope_points": 5.156,
+     "share_censored_high": 0.0
+    },
+    {
+     "class": "cooking",
+     "same_year_f1": 0.85711,
+     "cost": -0.00481,
+     "cost_ci": [
+      -0.01887,
+      0.00981
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      96.3,
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": 1.018,
+     "share_censored_high": 0.7465
+    },
+    {
+     "class": "movies",
+     "same_year_f1": 0.81032,
+     "cost": -0.00146,
+     "cost_ci": [
+      -0.01789,
+      0.01368
+     ],
+     "n_star": ">500",
+     "n_star_ci": [
+      296.8,
+      ">500"
+     ],
+     "rho": null,
+     "top_slope_points": 2.457,
+     "share_censored_high": 0.584
+    },
+    {
+     "class": "bicycles",
+     "same_year_f1": 0.85739,
+     "cost": 0.00257,
+     "cost_ci": [
+      -0.01288,
+      0.01691
+     ],
+     "n_star": 420.7,
+     "n_star_ci": [
+      181.3,
+      ">500"
+     ],
+     "rho": 0.8413,
+     "top_slope_points": 1.489,
+     "share_censored_high": 0.3685
+    },
+    {
+     "class": "boardgames",
+     "same_year_f1": 0.84619,
+     "cost": 0.01425,
+     "cost_ci": [
+      -0.00105,
+      0.02933
+     ],
+     "n_star": 360.9,
+     "n_star_ci": [
+      267.6,
+      ">500"
+     ],
+     "rho": 0.7218,
+     "top_slope_points": 4.372,
+     "share_censored_high": 0.0325
+    },
+    {
+     "class": "gardening",
+     "same_year_f1": 0.88794,
+     "cost": 0.01767,
+     "cost_ci": [
+      0.00498,
+      0.03076
+     ],
+     "n_star": 49.5,
+     "n_star_ci": [
+      "<25",
+      257.7
+     ],
+     "rho": 0.099,
+     "top_slope_points": 0.828,
+     "share_censored_high": 0.0005
+    },
+    {
+     "class": "chess",
+     "same_year_f1": 0.85664,
+     "cost": 0.02813,
+     "cost_ci": [
+      0.01043,
+      0.04536
+     ],
+     "n_star": 260.0,
+     "n_star_ci": [
+      87.6,
+      373.8
+     ],
+     "rho": 0.5201,
+     "top_slope_points": 4.304,
+     "share_censored_high": 0.0
+    }
+   ]
+  }
+ }
+}

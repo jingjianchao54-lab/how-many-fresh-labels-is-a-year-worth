@@ -1,0 +1,260 @@
+{
+ "classes": [
+  "philosophy",
+  "photo",
+  "music",
+  "history",
+  "cooking",
+  "movies",
+  "bicycles",
+  "boardgames",
+  "gardening",
+  "chess"
+ ],
+ "models": {
+  "M1": {
+   "1": {
+    "total_extra_errors_per_test_year": 16.63,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "movies"
+      ],
+      "extra_errors_per_test_year": 3.47,
+      "share_of_net_extra": 0.112
+     },
+     {
+      "pair": [
+       "cooking",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 2.53,
+      "share_of_net_extra": 0.082
+     },
+     {
+      "pair": [
+       "boardgames",
+       "chess"
+      ],
+      "extra_errors_per_test_year": 1.97,
+      "share_of_net_extra": 0.063
+     },
+     {
+      "pair": [
+       "music",
+       "boardgames"
+      ],
+      "extra_errors_per_test_year": 1.83,
+      "share_of_net_extra": 0.059
+     },
+     {
+      "pair": [
+       "philosophy",
+       "bicycles"
+      ],
+      "extra_errors_per_test_year": 1.77,
+      "share_of_net_extra": 0.057
+     }
+    ],
+    "top3_share": 0.256,
+    "recall_loss_points_by_class": {
+     "philosophy": -0.522,
+     "photo": 0.111,
+     "music": 0.378,
+     "history": 1.589,
+     "cooking": -0.311,
+     "movies": 0.911,
+     "bicycles": 0.189,
+     "boardgames": 1.489,
+     "gardening": 0.878,
+     "chess": 0.833
+    },
+    "n_pairs_increase": 31,
+    "n_pairs_total": 45
+   },
+   "6": {
+    "total_extra_errors_per_test_year": 59.0,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "movies"
+      ],
+      "extra_errors_per_test_year": 20.2,
+      "share_of_net_extra": 0.223
+     },
+     {
+      "pair": [
+       "bicycles",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 8.8,
+      "share_of_net_extra": 0.097
+     },
+     {
+      "pair": [
+       "cooking",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 8.0,
+      "share_of_net_extra": 0.088
+     },
+     {
+      "pair": [
+       "photo",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 5.4,
+      "share_of_net_extra": 0.06
+     },
+     {
+      "pair": [
+       "philosophy",
+       "history"
+      ],
+      "extra_errors_per_test_year": 5.0,
+      "share_of_net_extra": 0.055
+     }
+    ],
+    "top3_share": 0.409,
+    "recall_loss_points_by_class": {
+     "philosophy": -1.533,
+     "photo": 1.333,
+     "music": 2.267,
+     "history": 4.0,
+     "cooking": 1.2,
+     "movies": 2.933,
+     "bicycles": 1.533,
+     "boardgames": 2.867,
+     "gardening": 2.467,
+     "chess": 2.6
+    },
+    "n_pairs_increase": 25,
+    "n_pairs_total": 45
+   }
+  },
+  "M6": {
+   "1": {
+    "total_extra_errors_per_test_year": 13.6,
+    "top_pairs": [
+     {
+      "pair": [
+       "history",
+       "movies"
+      ],
+      "extra_errors_per_test_year": 5.47,
+      "share_of_net_extra": 0.258
+     },
+     {
+      "pair": [
+       "philosophy",
+       "chess"
+      ],
+      "extra_errors_per_test_year": 2.37,
+      "share_of_net_extra": 0.112
+     },
+     {
+      "pair": [
+       "philosophy",
+       "history"
+      ],
+      "extra_errors_per_test_year": 1.2,
+      "share_of_net_extra": 0.057
+     },
+     {
+      "pair": [
+       "photo",
+       "chess"
+      ],
+      "extra_errors_per_test_year": 1.13,
+      "share_of_net_extra": 0.054
+     },
+     {
+      "pair": [
+       "philosophy",
+       "photo"
+      ],
+      "extra_errors_per_test_year": 1.03,
+      "share_of_net_extra": 0.049
+     }
+    ],
+    "top3_share": 0.427,
+    "recall_loss_points_by_class": {
+     "philosophy": 0.567,
+     "photo": -0.033,
+     "music": 0.544,
+     "history": 1.611,
+     "cooking": 0.122,
+     "movies": 1.533,
+     "bicycles": -0.278,
+     "boardgames": 0.3,
+     "gardening": 0.044,
+     "chess": 0.122
+    },
+    "n_pairs_increase": 28,
+    "n_pairs_total": 45
+   },
+   "6": {
+    "total_extra_errors_per_test_year": 31.2,
+    "top_pairs": [
+     {
+      "pair": [
+       "boardgames",
+       "chess"
+      ],
+      "extra_errors_per_test_year": 9.2,
+      "share_of_net_extra": 0.142
+     },
+     {
+      "pair": [
+       "history",
+       "movies"
+      ],
+      "extra_errors_per_test_year": 7.6,
+      "share_of_net_extra": 0.117
+     },
+     {
+      "pair": [
+       "philosophy",
+       "history"
+      ],
+      "extra_errors_per_test_year": 4.8,
+      "share_of_net_extra": 0.074
+     },
+     {
+      "pair": [
+       "photo",
+       "gardening"
+      ],
+      "extra_errors_per_test_year": 4.4,
+      "share_of_net_extra": 0.068
+     },
+     {
+      "pair": [
+       "history",
+       "bicycles"
+      ],
+      "extra_errors_per_test_year": 4.2,
+      "share_of_net_extra": 0.065
+     }
+    ],
+    "top3_share": 0.332,
+    "recall_loss_points_by_class": {
+     "philosophy": -0.533,
+     "photo": 1.8,
+     "music": 0.467,
+     "history": 3.867,
+     "cooking": 2.133,
+     "movies": 0.2,
+     "bicycles": -0.2,
+     "boardgames": -0.333,
+     "gardening": -0.067,
+     "chess": 3.067
+    },
+    "n_pairs_increase": 26,
+    "n_pairs_total": 45
+   }
+  }
+ }
+}

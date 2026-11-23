@@ -1,7 +1,7 @@
 {
   "title": "How Many Fresh Labels Is a Year Worth? Code, data indices and results",
   "upload_type": "software",
-  "description": "Code, frozen configurations, sample indices, model predictions and result files for the study \"How Many Fresh Labels Is a Year Worth? Measuring the Exchange Rate between Label Recency and Label Quantity in Text Classification\" (submitted to Algorithms). Original post texts are not redistributed; the scripts and indices rebuild the samples from the public sources. See README.md for the steps that reproduce every table and figure.",
+  "description": "Code, frozen configurations, sample indices, model predictions, R1 revision outputs (revision/out and revision/rv02) and result files for the study \"How Many Fresh Labels Is a Year Worth? Measuring the Exchange Rate between Label Recency and Label Quantity in Text Classification\" (submitted to Algorithms). Original post texts are not redistributed; the scripts and indices rebuild the samples from the public sources. See README.md for the steps that reproduce every table and figure.",
   "creators": [
     {
       "name": "Jing, Jianzhao",
@@ -9,14 +9,19 @@
       "orcid": "0009-0006-8711-2639"
     },
     {
-      "name": "Lim, Chia Sien",
-      "affiliation": "Asia Pacific University of Technology and Innovation",
-      "orcid": "0000-0002-2257-0608"
+      "name": "Jiang, Zhifang",
+      "affiliation": "Shandong Xiehe University; Shandong University",
+      "orcid": "0009-0009-1446-4205"
     },
     {
       "name": "Rana, Muhammad Ehsan",
       "affiliation": "Asia Pacific University of Technology and Innovation",
       "orcid": "0000-0001-5828-4796"
+    },
+    {
+      "name": "Wang, Mengxia",
+      "affiliation": "Shandong Xiehe University",
+      "orcid": "0009-0009-0171-1270"
     },
     {
       "name": "Wang, Chunhui",
@@ -32,11 +37,6 @@
       "name": "Liu, Mei",
       "affiliation": "Shandong Xiehe University",
       "orcid": "0009-0003-5530-508X"
-    },
-    {
-      "name": "Wang, Mengxia",
-      "affiliation": "Shandong Xiehe University",
-      "orcid": "0009-0009-0171-1270"
     }
   ],
   "keywords": [

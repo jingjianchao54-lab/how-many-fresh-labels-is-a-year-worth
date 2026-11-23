@@ -1,0 +1,42 @@
+{
+ "counts": {
+  "read": 3224635,
+  "x_not_candidate": 1710412,
+  "eligible_before_cap": 1095897,
+  "x_crosslisted_candidate": 277128,
+  "x_withdrawn": 3197,
+  "x_after_max_year": 122091,
+  "x_duplicate": 710,
+  "x_missing": 15185,
+  "x_short": 15,
+  "x_over_author_cap": 17466,
+  "kept_after_cap": 1078431,
+  "submitters": 304414
+ },
+ "seconds": 92.8,
+ "max_year": 2025,
+ "candidates_A": [
+  "astro-ph.GA",
+  "cond-mat.mtrl-sci",
+  "cs.CL",
+  "cs.CV",
+  "hep-ph",
+  "hep-th",
+  "math.AP",
+  "math.CO",
+  "quant-ph",
+  "physics.optics"
+ ],
+ "candidates_B": [
+  "astro-ph.SR",
+  "cond-mat.str-el",
+  "cond-mat.stat-mech",
+  "gr-qc",
+  "math.PR",
+  "math.NA",
+  "math.OC",
+  "math.NT",
+  "cs.LG",
+  "stat.ME"
+ ]
+}

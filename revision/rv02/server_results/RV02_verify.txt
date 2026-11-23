@@ -1,0 +1,74 @@
+[PASS] run map reddit/select/M6G: expected=392 on_disk=392 missing=0 extra=0
+[PASS] finite reddit/select/M6G: 0 runs with ok=False []
+[PASS] readable reddit/select/M6G: 0 unreadable files []
+[SKIP] run map reddit/select/M6L: not run
+[PASS] run map reddit/test/M6G: expected=287 on_disk=287 missing=0 extra=0
+[PASS] finite reddit/test/M6G: 0 runs with ok=False []
+[PASS] readable reddit/test/M6G: 0 unreadable files []
+[PASS] run map reddit/test/M6L: expected=245 on_disk=245 missing=0 extra=0
+[PASS] finite reddit/test/M6L: 0 runs with ok=False []
+[PASS] readable reddit/test/M6L: 0 unreadable files []
+[PASS] lock order reddit/M6G: lock LOCK_reddit_M6G.json before first test file
+[PASS] lock order reddit/M6L: lock LOCK_reddit_M6G.json before first test file
+[WARN] reproduce M6 select reddit: 98 shared runs, max |dF1| = 0.0101, mean = 0.0018 (WARN = record in RV02_DEVIATIONS.md; does not stop the work)
+[PASS] run map stackexchange/select/M6G: expected=210 on_disk=210 missing=0 extra=0
+[PASS] finite stackexchange/select/M6G: 0 runs with ok=False []
+[PASS] readable stackexchange/select/M6G: 0 unreadable files []
+[SKIP] run map stackexchange/select/M6L: not run
+[PASS] run map stackexchange/test/M6G: expected=203 on_disk=203 missing=0 extra=0
+[PASS] finite stackexchange/test/M6G: 0 runs with ok=False []
+[PASS] readable stackexchange/test/M6G: 0 unreadable files []
+[PASS] run map stackexchange/test/M6L: expected=175 on_disk=175 missing=0 extra=0
+[PASS] finite stackexchange/test/M6L: 0 runs with ok=False []
+[PASS] readable stackexchange/test/M6L: 0 unreadable files []
+[PASS] lock order stackexchange/M6G: lock LOCK_stackexchange_M6G.json before first test file
+[PASS] lock order stackexchange/M6L: lock LOCK_stackexchange_M6G.json before first test file
+[PASS] reproduce M6 select stackexchange: 70 shared runs, max |dF1| = 0.0089, mean = 0.0033 (WARN = record in RV02_DEVIATIONS.md; does not stop the work)
+[SKIP] run map arxiv/select/M6G: not run
+[SKIP] run map arxiv/select/M6L: not run
+[PASS] run map arxiv/select/M1: expected=120 on_disk=120 missing=0 extra=0
+[PASS] finite arxiv/select/M1: 0 runs with ok=False []
+[PASS] readable arxiv/select/M1: 0 unreadable files []
+[PASS] run map arxiv/select/M2: expected=120 on_disk=120 missing=0 extra=0
+[PASS] finite arxiv/select/M2: 0 runs with ok=False []
+[PASS] readable arxiv/select/M2: 0 unreadable files []
+[PASS] run map arxiv/select/M3: expected=120 on_disk=120 missing=0 extra=0
+[PASS] finite arxiv/select/M3: 0 runs with ok=False []
+[PASS] readable arxiv/select/M3: 0 unreadable files []
+[PASS] run map arxiv/select/M4: expected=120 on_disk=120 missing=0 extra=0
+[PASS] finite arxiv/select/M4: 0 runs with ok=False []
+[PASS] readable arxiv/select/M4: 0 unreadable files []
+[PASS] run map arxiv/select/M5F: expected=120 on_disk=120 missing=0 extra=0
+[PASS] finite arxiv/select/M5F: 0 runs with ok=False []
+[PASS] readable arxiv/select/M5F: 0 unreadable files []
+[PASS] run map arxiv/select/M6: expected=80 on_disk=80 missing=0 extra=0
+[PASS] finite arxiv/select/M6: 0 runs with ok=False []
+[PASS] readable arxiv/select/M6: 0 unreadable files []
+[SKIP] run map arxiv/test/M6G: not run
+[SKIP] run map arxiv/test/M6L: not run
+[PASS] run map arxiv/test/M1: expected=360 on_disk=360 missing=0 extra=0
+[PASS] finite arxiv/test/M1: 0 runs with ok=False []
+[PASS] readable arxiv/test/M1: 0 unreadable files []
+[PASS] run map arxiv/test/M2: expected=360 on_disk=360 missing=0 extra=0
+[PASS] finite arxiv/test/M2: 0 runs with ok=False []
+[PASS] readable arxiv/test/M2: 0 unreadable files []
+[PASS] run map arxiv/test/M3: expected=360 on_disk=360 missing=0 extra=0
+[PASS] finite arxiv/test/M3: 0 runs with ok=False []
+[PASS] readable arxiv/test/M3: 0 unreadable files []
+[PASS] run map arxiv/test/M4: expected=360 on_disk=360 missing=0 extra=0
+[PASS] finite arxiv/test/M4: 0 runs with ok=False []
+[PASS] readable arxiv/test/M4: 0 unreadable files []
+[PASS] run map arxiv/test/M5F: expected=360 on_disk=360 missing=0 extra=0
+[PASS] finite arxiv/test/M5F: 0 runs with ok=False []
+[PASS] readable arxiv/test/M5F: 0 unreadable files []
+[PASS] run map arxiv/test/M6: expected=232 on_disk=232 missing=0 extra=0
+[PASS] finite arxiv/test/M6: 0 runs with ok=False []
+[PASS] readable arxiv/test/M6: 0 unreadable files []
+[PASS] lock order arxiv/M1: lock LOCK_arxiv.json before first test file
+[PASS] lock order arxiv/M2: lock LOCK_arxiv.json before first test file
+[PASS] lock order arxiv/M3: lock LOCK_arxiv.json before first test file
+[PASS] lock order arxiv/M4: lock LOCK_arxiv.json before first test file
+[PASS] lock order arxiv/M5F: lock LOCK_arxiv_M5F.json before first test file
+[PASS] lock order arxiv/M6: lock LOCK_arxiv_M6.json before first test file
+[PASS] arxiv sample size: 92800 items, K=8, years=[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025], size=(500, 150, 300)
+SUMMARY: ALL PASS

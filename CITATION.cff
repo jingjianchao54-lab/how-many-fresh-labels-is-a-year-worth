@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this code or these results, please cite the archived release."
 title: "How Many Fresh Labels Is a Year Worth? Code, data indices and results"
+version: v1.2
+date-released: "2026-11-23"
 type: software
 license: MIT
 doi: 10.5281/zenodo.23621118
@@ -10,14 +12,18 @@ authors:
     given-names: Jianzhao
     affiliation: "Shandong Xiehe University; Asia Pacific University of Technology and Innovation"
     orcid: "https://orcid.org/0009-0006-8711-2639"
-  - family-names: Lim
-    given-names: Chia Sien
-    affiliation: "Asia Pacific University of Technology and Innovation"
-    orcid: "https://orcid.org/0000-0002-2257-0608"
+  - family-names: Jiang
+    given-names: Zhifang
+    affiliation: "Shandong Xiehe University; Shandong University"
+    orcid: "https://orcid.org/0009-0009-1446-4205"
   - family-names: Rana
     given-names: Muhammad Ehsan
     affiliation: "Asia Pacific University of Technology and Innovation"
     orcid: "https://orcid.org/0000-0001-5828-4796"
+  - family-names: Wang
+    given-names: Mengxia
+    affiliation: "Shandong Xiehe University"
+    orcid: "https://orcid.org/0009-0009-0171-1270"
   - family-names: Wang
     given-names: Chunhui
     affiliation: "Shandong Xiehe University"
@@ -30,10 +36,6 @@ authors:
     given-names: Mei
     affiliation: "Shandong Xiehe University"
     orcid: "https://orcid.org/0009-0003-5530-508X"
-  - family-names: Wang
-    given-names: Mengxia
-    affiliation: "Shandong Xiehe University"
-    orcid: "https://orcid.org/0009-0009-0171-1270"
 keywords:
   - temporal drift
   - label recency

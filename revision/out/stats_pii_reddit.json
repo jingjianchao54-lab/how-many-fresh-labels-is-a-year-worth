@@ -1,0 +1,10 @@
+{
+ "replacements": {
+  "email": 100,
+  "ip": 75,
+  "phone": 5999,
+  "handle": 1939
+ },
+ "items_with_any": 5594,
+ "items": 385000
+}

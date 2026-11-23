@@ -1,0 +1,51 @@
+{
+ "repo": "librarian-bots/arxiv-metadata-snapshot",
+ "commit": "c428226b689a0e17db2cd55265133b9eca15d97f",
+ "fetched_at": "2026-11-19 13:32:11 +0800",
+ "files": {
+  "data/train-00000-of-00011.parquet": {
+   "bytes": 284033689,
+   "sha256": "2b0cd657765299c06a53f40d18d9a6be707b7bb5ac67cc99afea12c1eb1f6b2d"
+  },
+  "data/train-00001-of-00011.parquet": {
+   "bytes": 280398761,
+   "sha256": "6a9f1721f2ff83a9554966ea5fb3b6082e06a7b6a0e9a60c65c9b45a49b40f2e"
+  },
+  "data/train-00002-of-00011.parquet": {
+   "bytes": 275725802,
+   "sha256": "5ceb8990b71f0026e6a99e06ffdaaa6fafb1283a811b91e113638ee17b9d6724"
+  },
+  "data/train-00003-of-00011.parquet": {
+   "bytes": 269293149,
+   "sha256": "1326619f9081a0ab3e26ce0a47368fe719eca3769e3d0c1fd937c5c5a72a8bbf"
+  },
+  "data/train-00004-of-00011.parquet": {
+   "bytes": 262530975,
+   "sha256": "c0643e0a72b30a834386abf2442abbea9ce654082d08c2e058baf496c560ffbf"
+  },
+  "data/train-00005-of-00011.parquet": {
+   "bytes": 254418986,
+   "sha256": "22ccd6bb2b32a3f6bb597b064930b9d0ab87a2e500ae4d30033f4fba6806c68a"
+  },
+  "data/train-00006-of-00011.parquet": {
+   "bytes": 243101946,
+   "sha256": "35a9c6ef73f51a0b2c57d131297bbfd627df2a2e63ed2052a51fa735413e9d7b"
+  },
+  "data/train-00007-of-00011.parquet": {
+   "bytes": 233806666,
+   "sha256": "b831a8bd9ca4ff409e12759b0f0529e1304bd8b0be1a97aea1c6ef3ec8c3a694"
+  },
+  "data/train-00008-of-00011.parquet": {
+   "bytes": 222733408,
+   "sha256": "a3fa8db6eac9fb17dfdfdf65be4fae0c9ed5e65480683a98959e845099180984"
+  },
+  "data/train-00009-of-00011.parquet": {
+   "bytes": 200637171,
+   "sha256": "f6b76c2cfa337ae252b5aec4e4d1e06a4b9e64fff8890b8aa54db61b60cd192a"
+  },
+  "data/train-00010-of-00011.parquet": {
+   "bytes": 174286181,
+   "sha256": "e3b1b851f16bb1f579c37f16d2b14f8d2bbd1d1930e7fabf0b4e9639c12fc745"
+  }
+ }
+}

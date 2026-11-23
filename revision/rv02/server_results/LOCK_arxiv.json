@@ -1,0 +1,44 @@
+{
+ "dataset": "arxiv",
+ "locked_at": "2026-11-19 15:49:40 +0800",
+ "selected": {
+  "M1": {
+   "25": 100,
+   "50": 100,
+   "100": 100,
+   "200": 100,
+   "500": 10
+  },
+  "M2": {
+   "25": 1,
+   "50": 10,
+   "100": 1,
+   "200": 10,
+   "500": 10
+  },
+  "M3": {
+   "25": 1.0,
+   "50": 1.0,
+   "100": 0.5,
+   "200": 1.0,
+   "500": 0.1
+  },
+  "M4": {
+   "25": 0.1,
+   "50": 0.1,
+   "100": 0.1,
+   "200": 0.1,
+   "500": 0.1
+  }
+ },
+ "sha256": {
+  "analysis_plan.md": "283db2c2fffdc81c320dd113edae05693043d07dbbe7413819b8aab1a093003e",
+  "AMENDMENTS.md": "b5e89891b2d6992fbf3b21677f7f0e49a81a7cd717d740e62b132e6fd3610563",
+  "work/sample_arxiv.pkl": "240018d387a482295468ecc3a95b7201d750b27f25f7dfc3f5f70c0abc92c3a2",
+  "src/common.py": "9ccf5993a6bf7ae1a6552dc4557eef66c5b43acaf984e5f5fec4556806d4d4f4",
+  "src/features.py": "cb72021e4913c91171995de1406ce131acd902b4e19cfd9df25e3178de4a2512",
+  "src/run.py": "9237d205b64f3da6c55009375651de14e60566e470982a91838da8ba4d0f8fb9",
+  "src/evaluate.py": "9ba4a6e56ea08e24b46f769a6289f2ce27f224a1dead14a99028e51d18544489",
+  "src/select_lock.py": "4ca580cd4b1c1b1ea70a07953545143203c65b40d262c8d11ab69a696a3d810b"
+ }
+}
